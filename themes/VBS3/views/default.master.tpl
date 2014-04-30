@@ -76,7 +76,15 @@
         </div>
     </div>
     <div id="Foot">
-                <div class="Row" style="width: 100%; height: 130px; margin: 0px;">
+        <div class="FootHeader" style="padding-bottom: 40px;
+                        margin: 0px;
+                        background: url('/themes/aiqingda/design/images/grassbottom.png') repeat-x;
+                        width: 100%;">
+                </div>
+                <div class="FootBody" style="background: url('/themes/aiqingda/design/images/foot_bottom_bg.jpg') repeat-x;
+                        width: 100%;
+                        height: 130px;
+                        margin: 0px;">
                         <div class="clearfix">
                                 <dl class="list">
                                 <dt>常见问答</dt>
@@ -101,29 +109,45 @@
                                 <a href=http://www.qhwww.com target=_blank>青海网址导航</a>
                                 </dd>
                                 </dl>
-								<dl class="list list_right">
-                                <dt>声明</dt>
+
+                                <dl class="list">
+                                <dt>官方帐户 - 我们在这里</dt>
+                                <dd><a href="http://aiqingda.renren.com">爱青大BBS - 人人网</a></dd>
+                                <dd><a href="http://www.weibo.com/aiqingda">爱青大BBS - 新浪微博</a></dd>
+                                <dd><a href="http://t.qq.com/aiqingdabbs">爱青大BBS - 腾讯微博</a></dd>
+                                <dd><a href="http://zhan.renren.com/aiqingda">爱青大BBS - 人人小站</a></dd>
+                                <dd><a href="http://page.renren.com/601412717">爱青大BBS - 人人公共主页</a></dd>
+
+                                </dl>
+				<dl class="list list_right">
+                                <dt></dt>
                                         <dd>
                                                 请遵守中华人民共和国相关法律 - 本站会员观点不代表本站立场<br> <br>
                                         </dd>
                                         <dd>
-                                                Powered by Vanilla - Design by 爱青大社区  © 2012-2014  <br> <br>
+                                                Powered by Vanilla - Design by 爱青大社区  © 2012-2013  <br> <br>
                                         </dd>
                                         <dd>
                                                 <a href="/index.php?p=/plugin/page/about">关于爱青大BBS社区</a> - 联系我们：aiqingdabbs#sina.com (#换@)<br> <br>
                                         </dd>
                                         <dd>
-                                                
-                                                统计工具：
-                                                <script type="text/javascript">
-                                                	var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-                                                	document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F9ff9ad53101fc9dbdb96824a251db3a7' type='text/javascript'%3E%3C/script%3E"));
+                                                {asset name="Foot"}
+                                                统计工具：<script type="text/javascript">
+                                                var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                                                document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F9ff9ad53101fc9dbdb96824a251db3a7' type='text/javascript'%3E%3C/script%3E"));
                                                 </script>
+
                                         </dd>
                                 </dl>
                         </div>
                 </div>
-                {asset name="Foot"}
+
+	
+	<div class="Row">
+            <a href="{vanillaurl}" class="PoweredByVanilla" title="Community Software by Vanilla Forums">Powered by
+                Vanilla</a>
+            {asset name="Foot"}
+        </div>
     </div>
 </div>
 {event name="AfterBody"}

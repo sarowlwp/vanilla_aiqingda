@@ -3,7 +3,7 @@
 // Cache
 $Configuration['Cache']['Enabled'] = TRUE;
 $Configuration['Cache']['Method'] = 'dirtycache';
-$Configuration['Cache']['Filecache']['Store'] = '/srv/www/v2.aiqingda.com/public_html/cache/Filecache';
+$Configuration['Cache']['Filecache']['Store'] = '/srv/www/aiqingda.com/public_html/cache/Filecache';
 
 // Conversations
 $Configuration['Conversations']['Version'] = '2.1';
@@ -27,13 +27,16 @@ $Configuration['EnabledApplications']['Conversations'] = 'conversations';
 $Configuration['EnabledApplications']['Vanilla'] = 'vanilla';
 
 // EnabledPlugins
+$Configuration['EnabledPlugins']['GettingStarted'] = 'GettingStarted';
 $Configuration['EnabledPlugins']['HtmLawed'] = 'HtmLawed';
 $Configuration['EnabledPlugins']['Facebook'] = TRUE;
+$Configuration['EnabledPlugins']['YoukuTudou'] = TRUE;
 $Configuration['EnabledPlugins']['TecentConnect'] = TRUE;
 $Configuration['EnabledPlugins']['ChinesePreference'] = TRUE;
-$Configuration['EnabledPlugins']['Pockets'] = TRUE;
+$Configuration['EnabledPlugins']['Emotify'] = TRUE;
+$Configuration['EnabledPlugins']['BaiduShare'] = TRUE;
 $Configuration['EnabledPlugins']['cleditor'] = TRUE;
-$Configuration['EnabledPlugins']['Quotes'] = TRUE;
+$Configuration['EnabledPlugins']['Pockets'] = TRUE;
 
 // Garden
 $Configuration['Garden']['ContentType'] = 'text/html';
@@ -69,6 +72,7 @@ $Configuration['Garden']['Registration']['DefaultRoles'] = array('8');
 $Configuration['Garden']['Registration']['ApplicantRoleID'] = 4;
 $Configuration['Garden']['Registration']['InviteExpiration'] = '-1 week';
 $Configuration['Garden']['Registration']['InviteRoles']['3'] = '0';
+$Configuration['Garden']['Registration']['InviteRoles']['4'] = '0';
 $Configuration['Garden']['Registration']['InviteRoles']['8'] = '0';
 $Configuration['Garden']['Registration']['InviteRoles']['16'] = '0';
 $Configuration['Garden']['Registration']['InviteRoles']['32'] = '0';
@@ -77,7 +81,7 @@ $Configuration['Garden']['Registration']['ConfirmEmail'] = '1';
 $Configuration['Garden']['Registration']['ConfirmEmailRole'] = '3';
 $Configuration['Garden']['Registration']['MinPasswordLength'] = 6;
 $Configuration['Garden']['Registration']['CaptchaPrivateKey'] = '6LeyNtASAAAAAOlyM7VSXrtMcV18MmdeIZSl61v3';
-$Configuration['Garden']['Registration']['CaptchaPublicKey'] = '6LeyNtASAAAAAOR1dsvSN_t085s0ZD-SVJAM6JtR';
+$Configuration['Garden']['Registration']['CaptchaPublicKey'] = '6LeyNtASAAAAAOR1dsvSN_t085s0ZD';
 $Configuration['Garden']['TermsOfService'] = '/home/termsofservice';
 $Configuration['Garden']['Email']['UseSmtp'] = FALSE;
 $Configuration['Garden']['Email']['SmtpHost'] = '';
@@ -86,8 +90,8 @@ $Configuration['Garden']['Email']['SmtpPassword'] = '';
 $Configuration['Garden']['Email']['SmtpPort'] = '25';
 $Configuration['Garden']['Email']['SmtpSecurity'] = '';
 $Configuration['Garden']['Email']['MimeType'] = 'text/plain';
-$Configuration['Garden']['Email']['SupportName'] = '爱青大BBS';
-$Configuration['Garden']['Email']['SupportAddress'] = 'noreply@aiqingda.com';
+$Configuration['Garden']['Email']['SupportName'] = 'Vanilla 2';
+$Configuration['Garden']['Email']['SupportAddress'] = '';
 $Configuration['Garden']['UpdateCheckUrl'] = 'http://vanillaforums.org/addons/update';
 $Configuration['Garden']['AddonUrl'] = 'http://vanillaforums.org/addons';
 $Configuration['Garden']['CanProcessImages'] = TRUE;
@@ -106,8 +110,8 @@ $Configuration['Garden']['Profile']['EditUsernames'] = FALSE;
 $Configuration['Garden']['Thumbnail']['Size'] = 40;
 $Configuration['Garden']['Menu']['Sort'] = array('Dashboard', 'Discussions', 'Questions', 'Activity', 'Applicants', 'Conversations', 'User');
 $Configuration['Garden']['InputFormatter'] = 'Html';
-$Configuration['Garden']['Html']['AllowedElements'] = 'a, abbr, acronym, address, area, audio, b, bdi, bdo, big, blockquote, br, caption, center, cite, code, col, colgroup, dd, del, details, dfn, div, dl, dt, em, figure, figcaption, font, h1, h2, h3, h4, h5, h6, hgroup, hr, i, img, ins, kbd, li, map, mark, menu, meter, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, summary, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video, wbr';
 $Configuration['Garden']['Html']['SafeStyles'] = FALSE;
+$Configuration['Garden']['Html']['AllowedElements'] = 'a, abbr, acronym, address, area, audio, b, bdi, bdo, big, blockquote, br, caption, center, cite, code, col, colgroup, dd, del, details, dfn, div, dl, dt, em, figure, figcaption, font, h1, h2, h3, h4, h5, h6, hgroup, hr, i, img, ins, kbd, li, map, mark, menu, meter, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, summary, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video, wbr';
 $Configuration['Garden']['Search']['Mode'] = 'like';
 $Configuration['Garden']['Theme'] = 'VBS3';
 $Configuration['Garden']['MobileTheme'] = 'mobile';
@@ -132,8 +136,7 @@ $Configuration['Garden']['Cdns']['Disable'] = FALSE;
 $Configuration['Garden']['InstallationID'] = '4670-4ADBF924-EB884D0B';
 $Configuration['Garden']['InstallationSecret'] = '2db6cc987aff9d52d4e9a4ad84ef49829d16a068';
 $Configuration['Garden']['HomepageTitle'] = '爱青大BBS';
-$Configuration['Garden']['Description'] = '各位同学大家好，欢迎加入爱青大，使用中有任何问题，欢迎发帖吐槽！';
-$Configuration['Garden']['SystemUserID'] = '6998';
+$Configuration['Garden']['Description'] = '';
 $Configuration['Garden']['User']['ValidationRegex'] = '\\d\\w_\\x{0800}-\\x{9fa5}';
 $Configuration['Garden']['User']['ValidationLength'] = '{2,20}';
 
@@ -151,23 +154,7 @@ $Configuration['Plugins']['GettingStarted']['Categories'] = '1';
 $Configuration['Plugins']['GettingStarted']['Plugins'] = '1';
 $Configuration['Plugins']['GettingStarted']['Profile'] = '1';
 $Configuration['Plugins']['GettingStarted']['Registration'] = '1';
-$Configuration['Plugins']['GettingStarted']['Discussion'] = '1';
 $Configuration['Plugins']['Tecent']['ChooseName'] = TRUE;
-$Configuration['Plugins']['TecentConnect']['ConsumerKey'] = '100266222';
-$Configuration['Plugins']['TecentConnect']['SiteUrl'] = 'www.aiqingda.com';
-$Configuration['Plugins']['TecentConnect']['Secret'] = '36b69ba130510b8165b0fd29b3dd3060';
-$Configuration['Plugins']['AutoExpireDiscussions']['Version'] = '0.1b';
-$Configuration['Plugins']['Akismet']['UserID'] = '1132';
-$Configuration['Plugins']['ProfileExtender']['ProfileFields'] = 'Location,Facebook,Twitter,Website';
-$Configuration['Plugins']['ProfileExtender']['RegistrationFields'] = 'Location';
-$Configuration['Plugins']['ProfileExtender']['TextMaxLength'] = 140;
-$Configuration['Plugins']['StopForumSpam']['UserID'] = '4';
-$Configuration['Plugins']['Cleanser']['Action'] = 'create';
-$Configuration['Plugins']['Cleanser']['MaxRecords'] = '';
-$Configuration['Plugins']['Cleanser']['Offset'] = '';
-$Configuration['Plugins']['Cleanser']['RoleSet'] = '8';
-$Configuration['Plugins']['Cleanser']['IPAddress'] = '';
-$Configuration['Plugins']['Cleanser']['PatternMatch'] = '';
 
 // Preferences
 $Configuration['Preferences']['Email']['ConversationMessage'] = '1';
@@ -183,46 +170,8 @@ $Configuration['Preferences']['Popup']['ActivityComment'] = '1';
 $Configuration['Preferences']['Popup']['DiscussionComment'] = '1';
 $Configuration['Preferences']['Popup']['Mention'] = '1';
 
-// ProfileExtender
-$Configuration['ProfileExtender']['Fields']['Location']['Label'] = 'Location';
-$Configuration['ProfileExtender']['Fields']['Location']['Length'] = 140;
-$Configuration['ProfileExtender']['Fields']['Location']['FormType'] = 'TextBox';
-$Configuration['ProfileExtender']['Fields']['Location']['OnProfile'] = 1;
-$Configuration['ProfileExtender']['Fields']['Location']['OnRegister'] = 1;
-$Configuration['ProfileExtender']['Fields']['Location']['OnDiscussion'] = 0;
-$Configuration['ProfileExtender']['Fields']['Location']['Required'] = 0;
-$Configuration['ProfileExtender']['Fields']['Location']['Locked'] = 0;
-$Configuration['ProfileExtender']['Fields']['Location']['Sort'] = 0;
-$Configuration['ProfileExtender']['Fields']['Facebook']['Label'] = 'Facebook';
-$Configuration['ProfileExtender']['Fields']['Facebook']['Length'] = 140;
-$Configuration['ProfileExtender']['Fields']['Facebook']['FormType'] = 'TextBox';
-$Configuration['ProfileExtender']['Fields']['Facebook']['OnProfile'] = 1;
-$Configuration['ProfileExtender']['Fields']['Facebook']['OnRegister'] = 0;
-$Configuration['ProfileExtender']['Fields']['Facebook']['OnDiscussion'] = 0;
-$Configuration['ProfileExtender']['Fields']['Facebook']['Required'] = 0;
-$Configuration['ProfileExtender']['Fields']['Facebook']['Locked'] = 0;
-$Configuration['ProfileExtender']['Fields']['Facebook']['Sort'] = 0;
-$Configuration['ProfileExtender']['Fields']['Twitter']['Label'] = 'Twitter';
-$Configuration['ProfileExtender']['Fields']['Twitter']['Length'] = 140;
-$Configuration['ProfileExtender']['Fields']['Twitter']['FormType'] = 'TextBox';
-$Configuration['ProfileExtender']['Fields']['Twitter']['OnProfile'] = 1;
-$Configuration['ProfileExtender']['Fields']['Twitter']['OnRegister'] = 0;
-$Configuration['ProfileExtender']['Fields']['Twitter']['OnDiscussion'] = 0;
-$Configuration['ProfileExtender']['Fields']['Twitter']['Required'] = 0;
-$Configuration['ProfileExtender']['Fields']['Twitter']['Locked'] = 0;
-$Configuration['ProfileExtender']['Fields']['Twitter']['Sort'] = 0;
-$Configuration['ProfileExtender']['Fields']['Website']['Label'] = 'Website';
-$Configuration['ProfileExtender']['Fields']['Website']['Length'] = 140;
-$Configuration['ProfileExtender']['Fields']['Website']['FormType'] = 'TextBox';
-$Configuration['ProfileExtender']['Fields']['Website']['OnProfile'] = 1;
-$Configuration['ProfileExtender']['Fields']['Website']['OnRegister'] = 0;
-$Configuration['ProfileExtender']['Fields']['Website']['OnDiscussion'] = 0;
-$Configuration['ProfileExtender']['Fields']['Website']['Required'] = 0;
-$Configuration['ProfileExtender']['Fields']['Website']['Locked'] = 0;
-$Configuration['ProfileExtender']['Fields']['Website']['Sort'] = 0;
-
 // Routes
-$Configuration['Routes']['DefaultController'] = array('discussions', 'Internal');
+$Configuration['Routes']['DefaultController'] = 'discussions';
 $Configuration['Routes']['DefaultForumRoot'] = 'discussions';
 $Configuration['Routes']['Default404'] = array('dashboard/home/filenotfound', 'NotFound');
 $Configuration['Routes']['DefaultPermission'] = array('dashboard/home/permission', 'NotAuthorized');
@@ -230,14 +179,5 @@ $Configuration['Routes']['UpdateMode'] = 'dashboard/home/updatemode';
 
 // Vanilla
 $Configuration['Vanilla']['Version'] = '2.1';
-$Configuration['Vanilla']['Discussions']['Layout'] = 'modern';
-$Configuration['Vanilla']['Categories']['Layout'] = 'mixed';
-$Configuration['Vanilla']['Discussion']['SpamCount'] = '1';
-$Configuration['Vanilla']['Discussion']['SpamTime'] = '240';
-$Configuration['Vanilla']['Discussion']['SpamLock'] = '600';
-$Configuration['Vanilla']['Comment']['SpamCount'] = '3';
-$Configuration['Vanilla']['Comment']['SpamTime'] = '60';
-$Configuration['Vanilla']['Comment']['SpamLock'] = '600';
-$Configuration['Vanilla']['Comment']['MaxLength'] = '8000';
 
-// Last edited by sarowlwp (111.161.79.17)2014-04-30 14:01:54
+// Last edited by sarowlwp (111.161.79.17)2014-04-30 16:22:41

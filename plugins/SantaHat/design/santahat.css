@@ -1,0 +1,20 @@
+.SantaHat {
+	position: relative; 
+	left: -22px; 
+	top: -8px;
+	z-index:1;
+}
+
+.SantaHat2 {
+	position: relative; 
+	top: -9px; 
+	left: -66px;
+	z-index:1;
+}
+
+.SantaHat4  {
+	position: relative; 
+	left: -46px; 
+	top: -19px;	
+}
+

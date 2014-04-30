@@ -1,0 +1,10 @@
+div.MassDelivery #Form_Body {
+	font-size:13px;
+	font-family:"Courier New", monospace;
+	line-height:14px;
+	width:100%;
+}
+
+div.MassDelivery label[for=Form_Body] {
+	float:none !important;
+}

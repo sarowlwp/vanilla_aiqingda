@@ -1,0 +1,1 @@
+cp -urp /home/aiqingda/www/www/uploads/userpics/*  /home/aiqingda/www/wap/uploads/userpics/

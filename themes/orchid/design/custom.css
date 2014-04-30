@@ -1,0 +1,226 @@
+body {
+  background: #EEE;
+}
+code {
+  display: block;
+}
+a {
+  color: #8B920A;
+  font-weight: normal;
+}
+.PageControls {
+  background: #F6F6F6;
+  padding: 5px 10px 8px;
+  margin: 0;
+}
+.PageControls .Pager {
+  float: left;
+}
+.PageControls .Pager a,
+.PageControls .Pager span {
+  font-size: 14px;
+  padding: 1px 5px;
+  border: 1px #eee solid;
+  line-height: 20px;
+  background: white;
+  display: inline-block;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.PageControls .Pager a.Highlight,
+.PageControls .Pager span.Highlight {
+  color: #777;
+}
+.HasNew {
+  background-color: #FFF87F;
+}
+#Head {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  background: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #C8C8C8;
+}
+#Head a {
+  color: #333;
+  font-weight: normal;
+}
+#Head .SiteTitle {
+  font-size: 20px;
+  font-family: Tahoma, Arial, Helvetica, STHeiti;
+}
+#Head .SiteTitle a {
+  color: #E65E8D;
+}
+#Head .SiteMenu {
+  margin-left: 10px;
+}
+#Head .SiteMenu a {
+  font-size: 14px;
+}
+#Head .SiteMenu a.Selected {
+  color: #D6156C;
+}
+#Head .SiteSearch .InputBox {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+#Head .SiteSearch .Button {
+  /*background:#DDD;
+		color:#777;
+		top: 1px;
+		padding:5px 10px;*/
+
+}
+/*.ItemContent.Discussion {
+	overflow:hidden;
+}*/
+.Box {
+  margin: 15px 0;
+}
+.GuestBox {
+  margin: 0 0 10px 0;
+  padding: 5px 10px;
+  background: white;
+  box-shadow: 0 0 10px 0 #e2e2e2;
+  border: 1px solid #DDD;
+}
+.UserBox,
+.MeBox {
+  margin-top: 0;
+}
+.PageDescription {
+  padding: 0 10px;
+}
+.PageControls.Top {
+  display: none;
+}
+#Content {
+  padding: 10px 10px;
+  background: white;
+  box-shadow: 0 0 10px 0 #e2e2e2;
+  border: 1px solid #DDD;
+}
+body.Categories #Content,
+body.Discussions #Content {
+  padding: 0;
+}
+h1.HomepageTitle {
+  color: #4D4D4D;
+  font-weight: normal;
+  font-size: 130%;
+}
+ul.Discussions .Title a {
+  color: #000;
+}
+ul.Discussions .Meta a {
+  color: #8B920A;
+}
+ul.Discussions li img {
+  width: 40px;
+  height: 40px;
+}
+ul.Discussions .Item {
+  background: #FFF;
+  padding: 8px 8px 3px;
+}
+h1.HomepageTitle {
+  padding: 5px 10px;
+  margin: 0;
+  background: #F2F2F2;
+}
+#vanilla_discussions_index .PageDescription {
+  display: none;
+}
+#Panel .FilterMenu li,
+.PanelInfo li {
+  border-bottom: 1px dashed #D0D0D0;
+}
+#Panel .FilterMenu .Active,
+.PanelInfo .Active {
+  background: none;
+}
+#Panel .FilterMenu .Active a,
+.PanelInfo .Active a {
+  color: #D6156C;
+}
+#Panel .FilterMenu li:first-child,
+.PanelInfo li:first-child,
+#Panel .FilterMenu li:last-child,
+.PanelInfo li:last-child {
+  border-bottom: 1px solid #D0D0D0;
+}
+#Panel .FilterMenu li:first-child,
+.PanelInfo li:first-child {
+  border-top: none;
+}
+#Panel .FilterMenu li:first-child a,
+.PanelInfo li:first-child a {
+  color: #4D4D4D;
+}
+#Panel .FilterMenu .Discussions a,
+.PanelInfo .Discussions a,
+#Panel .FilterMenu .MyBookmarks a,
+.PanelInfo .MyBookmarks a,
+#Panel .FilterMenu .MyDiscussions a,
+.PanelInfo .MyDiscussions a,
+#Panel .FilterMenu .AllCategories a,
+.PanelInfo .AllCategories a {
+  padding-left: 25px;
+}
+#Panel .FilterMenu .Discussions a,
+.PanelInfo .Discussions a {
+  background: url(icons/new.png) no-repeat 0 50%;
+}
+#Panel .FilterMenu .MyBookmarks a,
+.PanelInfo .MyBookmarks a {
+  background: url(icons/bookmark.png) no-repeat 0 50%;
+}
+#Panel .FilterMenu .MyDiscussions a,
+.PanelInfo .MyDiscussions a {
+  background: url(icons/mine.png) no-repeat 0 50%;
+}
+#Panel .FilterMenu .AllCategories a,
+.PanelInfo .AllCategories a {
+  background: url(icons/category.png) no-repeat 0 50%;
+}
+.Count {
+  background: #B7B7B7;
+}
+.Item .Author a {
+  color: #777;
+}
+#dashboard_entry_signin #Content {
+  overflow: hidden;
+}
+.Discussion .PageTitle h1 {
+  font-weight: normal;
+}
+h2.CommentHeading {
+  border-radius: 3px;
+  background: #EEE;
+  padding: 3px 10px;
+}
+.TagCloud li span a {
+  color: #888;
+}
+.TagCloud .Count {
+  border: 1px solid #DDD;
+  color: #AAA;
+  background: white;
+  padding: 0 .8ex;
+}
+.ChildCategoryList {
+  overflow: hidden;
+  margin-bottom: 8px;
+  padding: 0 10px;
+}
+.Empty {
+  margin: 10px 0;
+  padding: 0 10px;
+}
+/*a.Bookmarked, a.Bookmarked:hover {
+	background-position: -54px -28px;
+}*/

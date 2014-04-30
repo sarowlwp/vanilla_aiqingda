@@ -1,0 +1,9 @@
+A (nearly complete) re-write of the lajkuj like plugin. 
+
+Tracks each 'like' for a comment or discussion. 
+
+Adds the total number of likes for a thread to the meta field in the all discussions page and displays the number of likes for each post along with giving users th option to like / unlike comments. 
+
+Users are not allowed to like thier own posts or perform like functions on discussions without having the permission to add new comments. 
+
+Tracks total number of times a user has had their content liked and the umber of times they have liked another users posts in the user table to allow for karma and other plugins to pick up this information.

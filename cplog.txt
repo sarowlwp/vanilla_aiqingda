@@ -1,0 +1,57 @@
+[Sat Apr 21 14:18:23 2012] [125.39.68.54] [aiqignda] UPLOAD [size:21380008] '/home/aiqignda/www/www/aiqingdabbs.zip'
+[Sat Apr 21 15:28:09 2012] [125.39.68.54] [aiqingda] UPLOAD [size:21380008] '/home/aiqingda/www/www/aiqingdabbs.zip'
+[Sat Apr 21 15:29:02 2012] [125.39.68.54] [aiqingda] RENAME '/home/aiqingda/www/www/aiqingdabbs/aiqingdabbs' -> '/home/aiqingda/www/www/aiqingdabbs/www'
+[Sat Apr 21 15:29:13 2012] [125.39.68.54] [aiqingda] RENAME '/home/aiqingda/www/www/aiqingdabbs/wapaiqingda' -> '/home/aiqingda/www/www/aiqingdabbs/wap'
+[Sat Apr 21 15:30:34 2012] [125.39.68.54] [aiqingda] MOVE /home/aiqingda/www/www/aiqingdabbs/www/applications -> /home/aiqingda/www/www/
+[Sat Apr 21 15:30:34 2012] [125.39.68.54] [aiqingda] MOVE /home/aiqingda/www/www/aiqingdabbs/www/cache -> /home/aiqingda/www/www/
+[Sat Apr 21 15:30:34 2012] [125.39.68.54] [aiqingda] MOVE /home/aiqingda/www/www/aiqingdabbs/www/conf -> /home/aiqingda/www/www/
+[Sat Apr 21 15:30:34 2012] [125.39.68.54] [aiqingda] MOVE /home/aiqingda/www/www/aiqingdabbs/www/js -> /home/aiqingda/www/www/
+[Sat Apr 21 15:30:34 2012] [125.39.68.54] [aiqingda] MOVE /home/aiqingda/www/www/aiqingdabbs/www/library -> /home/aiqingda/www/www/
+[Sat Apr 21 15:30:34 2012] [125.39.68.54] [aiqingda] MOVE /home/aiqingda/www/www/aiqingdabbs/www/locales -> /home/aiqingda/www/www/
+[Sat Apr 21 15:30:34 2012] [125.39.68.54] [aiqingda] MOVE /home/aiqingda/www/www/aiqingdabbs/www/plugins -> /home/aiqingda/www/www/
+[Sat Apr 21 15:30:34 2012] [125.39.68.54] [aiqingda] MOVE /home/aiqingda/www/www/aiqingdabbs/www/themes -> /home/aiqingda/www/www/
+[Sat Apr 21 15:30:34 2012] [125.39.68.54] [aiqingda] MOVE /home/aiqingda/www/www/aiqingdabbs/www/uploads -> /home/aiqingda/www/www/
+[Sat Apr 21 15:30:34 2012] [125.39.68.54] [aiqingda] MOVE /home/aiqingda/www/www/aiqingdabbs/www/.gitignore -> /home/aiqingda/www/www/
+[Sat Apr 21 15:30:34 2012] [125.39.68.54] [aiqingda] MOVE /home/aiqingda/www/www/aiqingdabbs/www/.htaccess -> /home/aiqingda/www/www/
+[Sat Apr 21 15:30:34 2012] [125.39.68.54] [aiqingda] MOVE /home/aiqingda/www/www/aiqingdabbs/www/bootstrap.php -> /home/aiqingda/www/www/
+[Sat Apr 21 15:30:34 2012] [125.39.68.54] [aiqingda] MOVE /home/aiqingda/www/www/aiqingdabbs/www/error_log -> /home/aiqingda/www/www/
+[Sat Apr 21 15:30:34 2012] [125.39.68.54] [aiqingda] MOVE /home/aiqingda/www/www/aiqingdabbs/www/index.php -> /home/aiqingda/www/www/
+[Sat Apr 21 15:30:34 2012] [125.39.68.54] [aiqingda] MOVE /home/aiqingda/www/www/aiqingdabbs/www/LICENSE.txt -> /home/aiqingda/www/www/
+[Sat Apr 21 15:30:34 2012] [125.39.68.54] [aiqingda] MOVE /home/aiqingda/www/www/aiqingdabbs/www/readme.html -> /home/aiqingda/www/www/
+[Sat Apr 21 15:31:19 2012] [125.39.68.54] [aiqingda] DELFILE '/home/aiqingda/www/www/cache/a_conversations_controller_map.ini'
+[Sat Apr 21 15:31:19 2012] [125.39.68.54] [aiqingda] DELFILE '/home/aiqingda/www/www/cache/a_conversations_library_map.ini'
+[Sat Apr 21 15:31:19 2012] [125.39.68.54] [aiqingda] DELFILE '/home/aiqingda/www/www/cache/a_dashboard_controller_map.ini'
+[Sat Apr 21 15:31:19 2012] [125.39.68.54] [aiqingda] DELFILE '/home/aiqingda/www/www/cache/a_dashboard_library_map.ini'
+[Sat Apr 21 15:31:19 2012] [125.39.68.54] [aiqingda] DELFILE '/home/aiqingda/www/www/cache/a_vanilla_controller_map.ini'
+[Sat Apr 21 15:31:19 2012] [125.39.68.54] [aiqingda] DELFILE '/home/aiqingda/www/www/cache/a_vanilla_library_map.ini'
+[Sat Apr 21 15:31:19 2012] [125.39.68.54] [aiqingda] DELFILE '/home/aiqingda/www/www/cache/c_library_map.ini'
+[Sat Apr 21 15:31:19 2012] [125.39.68.54] [aiqingda] DELFILE '/home/aiqingda/www/www/cache/locale_map.ini'
+[Sat Apr 21 15:31:19 2012] [125.39.68.54] [aiqingda] DELFILE '/home/aiqingda/www/www/cache/p_core_library_map.ini'
+[Sat Apr 21 15:31:32 2012] [125.39.68.54] [aiqingda] DELFILE '/home/aiqingda/www/www/cache/Smarty/compile/%%90^90F^90F03EB3%%default.master.tpl.php'
+[Sat Apr 21 15:31:32 2012] [125.39.68.54] [aiqingda] DELFILE '/home/aiqingda/www/www/cache/Smarty/compile/%%D3^D30^D30DB31A%%empty.master.tpl.php'
+[Sat Apr 21 15:31:32 2012] [125.39.68.54] [aiqingda] DELFILE '/home/aiqingda/www/www/cache/Smarty/compile/%%D6^D61^D61BAF08%%default.master.tpl.php'
+[Sat Apr 21 15:32:12 2012] [125.39.68.54] [aiqingda] EDIT [size from 8432 to 8429] '/home/aiqingda/www/www/conf/config.php'
+[Sat Apr 21 15:34:23 2012] [125.39.68.54] [aiqingda] EDIT [size from 2042 to 2046] '/home/aiqingda/www/www/themes/default/views/default.master.tpl'
+[Sat Apr 21 15:39:25 2012] [125.39.68.54] [aiqingda] DELDIR '/home/aiqingda/www/www/aiqingdabbs'
+[Sat Apr 21 15:39:39 2012] [125.39.68.54] [aiqingda] COPY /home/aiqingda/www/www/applications -> /home/aiqingda/www/wap/
+[Sat Apr 21 15:39:39 2012] [125.39.68.54] [aiqingda] COPY /home/aiqingda/www/www/cache -> /home/aiqingda/www/wap/
+[Sat Apr 21 15:39:39 2012] [125.39.68.54] [aiqingda] COPY /home/aiqingda/www/www/cgi-bin -> /home/aiqingda/www/wap/
+[Sat Apr 21 15:39:39 2012] [125.39.68.54] [aiqingda] COPY /home/aiqingda/www/www/conf -> /home/aiqingda/www/wap/
+[Sat Apr 21 15:39:39 2012] [125.39.68.54] [aiqingda] COPY /home/aiqingda/www/www/js -> /home/aiqingda/www/wap/
+[Sat Apr 21 15:39:39 2012] [125.39.68.54] [aiqingda] COPY /home/aiqingda/www/www/library -> /home/aiqingda/www/wap/
+[Sat Apr 21 15:39:39 2012] [125.39.68.54] [aiqingda] COPY /home/aiqingda/www/www/locales -> /home/aiqingda/www/wap/
+[Sat Apr 21 15:39:39 2012] [125.39.68.54] [aiqingda] COPY /home/aiqingda/www/www/plugins -> /home/aiqingda/www/wap/
+[Sat Apr 21 15:39:39 2012] [125.39.68.54] [aiqingda] COPY /home/aiqingda/www/www/themes -> /home/aiqingda/www/wap/
+[Sat Apr 21 15:39:39 2012] [125.39.68.54] [aiqingda] COPY /home/aiqingda/www/www/uploads -> /home/aiqingda/www/wap/
+[Sat Apr 21 15:39:39 2012] [125.39.68.54] [aiqingda] COPY /home/aiqingda/www/www/.gitignore -> /home/aiqingda/www/wap/
+[Sat Apr 21 15:39:39 2012] [125.39.68.54] [aiqingda] COPY /home/aiqingda/www/www/.htaccess -> /home/aiqingda/www/wap/
+[Sat Apr 21 15:39:39 2012] [125.39.68.54] [aiqingda] COPY /home/aiqingda/www/www/aiqingdabbs.zip -> /home/aiqingda/www/wap/
+[Sat Apr 21 15:39:39 2012] [125.39.68.54] [aiqingda] COPY /home/aiqingda/www/www/bootstrap.php -> /home/aiqingda/www/wap/
+[Sat Apr 21 15:39:39 2012] [125.39.68.54] [aiqingda] COPY /home/aiqingda/www/www/error_log -> /home/aiqingda/www/wap/
+[Sat Apr 21 15:39:39 2012] [125.39.68.54] [aiqingda] COPY /home/aiqingda/www/www/index.php -> /home/aiqingda/www/wap/
+[Sat Apr 21 15:39:39 2012] [125.39.68.54] [aiqingda] COPY /home/aiqingda/www/www/LICENSE.txt -> /home/aiqingda/www/wap/
+[Sat Apr 21 15:39:39 2012] [125.39.68.54] [aiqingda] COPY /home/aiqingda/www/www/missing.html -> /home/aiqingda/www/wap/
+[Sat Apr 21 15:39:39 2012] [125.39.68.54] [aiqingda] COPY /home/aiqingda/www/www/readme.html -> /home/aiqingda/www/wap/
+[Sat Apr 21 15:42:58 2012] [125.39.68.54] [aiqingda] DELFILE '/home/aiqingda/www/wap/aiqingdabbs.zip'
+[Sat Apr 21 15:43:35 2012] [125.39.68.54] [aiqingda] EDIT [size from 1090 to 1040] '/home/aiqingda/www/wap/themes/mobile/views/default.master.tpl'
+[Sat Apr 21 21:03:46 2012] [125.39.68.54] [aiqingda] MOVE /home/aiqingda/www/www/themes/plugins -> /home/aiqingda/www/www/

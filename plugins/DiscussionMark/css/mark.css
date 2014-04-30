@@ -1,0 +1,51 @@
+.EliteDiscussion{
+background: url("/themes/aiqingda/design/images/jinghua.gif") top center no-repeat;
+width: 170px;
+height: 90px;
+z-index: 9998;
+position: absolute;
+right: 22px;
+top: 81px;
+}
+
+.TabMark{
+	background: #EE9A00;
+	color:white;
+}
+
+.DataList .Meta  .EliteTag
+{
+background: #EE9A00;
+border-radius: 2px 2px 2px 2px;
+color: #ffffff;
+font-weight: bold;
+padding: 1px 4px;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+}
+
+.DataList .Meta  .RecommendTag
+{
+background: #008B00;
+border-radius: 2px 2px 2px 2px;
+color: #ffffff;
+font-weight: bold;
+padding: 1px 4px;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+}
+
+span.Lajkuj
+{
+	border-color: #6A8789;
+	border: 1px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+margin: 0;
+padding-left: 5px !important;
+padding-right: 5px;
+outline: 1px;
+text-align: center;
+}

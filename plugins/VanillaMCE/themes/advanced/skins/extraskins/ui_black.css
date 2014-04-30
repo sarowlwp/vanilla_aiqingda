@@ -1,0 +1,34 @@
+/* Black */
+.defaultSkin .mceToolbar .mceToolbarStart span, .defaultSkin .mceToolbar .mceToolbarEnd span, .defaultSkin .mceButton, .defaultSkin .mceSplitButton, .defaultSkin .mceSeparator, .defaultSkin .mceSplitButton a.mceOpen, .defaultSkin .mceListBox a.mceOpen {
+    background-image: url(img/button_bg_black.png);
+}
+
+.defaultSkin table, .defaultSkin .mceMenuItemTitle a, .defaultSkin .mceMenuItemTitle span.mceText, .defaultSkin .mceStatusbar div, .defaultSkin .mceStatusbar span, .defaultSkin .mceStatusbar a {
+    background: #535353;
+    color: #FFF;
+}
+
+.defaultSkin table.mceListBoxEnabled .mceText, o2k7SkinBlack .mceListBox .mceText {
+    background: #FFF;
+    border: 1px solid #CBCFD4;
+    border-bottom-color: #989FA9;
+    border-right: 0;
+}
+
+.defaultSkin table.mceListBoxEnabled:hover .mceText, .defaultSkin .mceListBoxHover .mceText, .defaultSkin .mceListBoxSelected .mceText {
+    background: #FFF;
+    border: 1px solid #FFBD69;
+    border-right: 0;
+}
+
+.defaultSkin .mceExternalToolbar, .defaultSkin .mceListBox .mceText, .defaultSkin div.mceMenu, .defaultSkin table.mceLayout, .defaultSkin .mceMenuItemTitle a, .defaultSkin table.mceLayout tr.mceFirst td, .defaultSkin table.mceLayout, .defaultSkin .mceMenuItemTitle a, .defaultSkin table.mceLayout tr.mceLast td, .defaultSkin .mceIframeContainer {
+    border-color: #535353;
+}
+
+.defaultSkin table.mceSplitButtonEnabled:hover a.mceAction, .defaultSkin .mceSplitButtonHover a.mceAction, .defaultSkin .mceSplitButtonSelected {
+    background-image: url(img/button_bg_black.png);
+}
+
+.defaultSkin .mceMenu .mceMenuItemEnabled a:hover, .defaultSkin .mceMenu .mceMenuItemActive {
+    background-color: #FFE7A1;
+}

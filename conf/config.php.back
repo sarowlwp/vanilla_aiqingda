@@ -1,0 +1,210 @@
+<?php if (!defined('APPLICATION')) exit();
+
+// Conversations
+$Configuration['Conversations']['Version'] = '2.0.18.4';
+
+// Database
+$Configuration['Database']['Name'] = 'aiqingda_vanillav2';
+$Configuration['Database']['Host'] = 'localhost';
+$Configuration['Database']['User'] = 'aiqingdavanilla';
+$Configuration['Database']['Password'] = 'qq1234';
+
+// DefaultLocales
+$Configuration['DefaultLocales']['Baseline'] = 'zh-CN';
+
+// DiscussionExcerpt2
+$Configuration['DiscussionExcerpt2']['Number_of_words'] = '5';
+$Configuration['DiscussionExcerpt2']['Show_announcements'] = '1';
+$Configuration['DiscussionExcerpt2']['Show_images'] = FALSE;
+
+// EnabledApplications
+$Configuration['EnabledApplications']['Conversations'] = 'conversations';
+$Configuration['EnabledApplications']['Vanilla'] = 'vanilla';
+
+// EnabledLocales
+$Configuration['EnabledLocales']['French'] = 'fr-FR';
+$Configuration['EnabledLocales']['Baseline'] = 'zh-CN';
+$Configuration['EnabledLocales']['Chinese'] = 'zh-CN';
+
+// EnabledPlugins
+$Configuration['EnabledPlugins']['HtmLawed'] = 'HtmLawed';
+$Configuration['EnabledPlugins']['LocaleDeveloper'] = TRUE;
+$Configuration['EnabledPlugins']['Minecraftatar'] = TRUE;
+
+// Garden
+$Configuration['Garden']['Title'] = '爱青大BBS - 青海大学人自己的BBS    爱青大BBS - 联系你我她';
+$Configuration['Garden']['Cookie']['Salt'] = 'D5ZGCUTL7V';
+$Configuration['Garden']['Cookie']['Domain'] = 'aiqingda.com';
+$Configuration['Garden']['Registration']['ConfirmEmail'] = '1';
+$Configuration['Garden']['Registration']['Method'] = 'Approval';
+$Configuration['Garden']['Registration']['CaptchaPrivateKey'] = '6LeyNtASAAAAAOlyM7VSXrtMcV18MmdeIZSl61v3';
+$Configuration['Garden']['Registration']['CaptchaPublicKey'] = '6LeyNtASAAAAAOR1dsvSN_t085s0ZD-SVJAM6JtR';
+$Configuration['Garden']['Registration']['InviteExpiration'] = '-1 week';
+$Configuration['Garden']['Registration']['ConfirmEmailRole'] = '3';
+$Configuration['Garden']['Registration']['InviteRoles'] = 'a:6:{i:3;s:1:"0";i:4;s:1:"0";i:8;s:1:"5";i:16;s:1:"0";i:32;s:1:"0";i:33;s:1:"0";}';
+$Configuration['Garden']['Email']['SupportName'] = '爱青大BBS社区';
+$Configuration['Garden']['Email']['SupportAddress'] = 'noreply@aiqingda.com';
+$Configuration['Garden']['Email']['UseSmtp'] = FALSE;
+$Configuration['Garden']['Email']['SmtpHost'] = '';
+$Configuration['Garden']['Email']['SmtpUser'] = '';
+$Configuration['Garden']['Email']['SmtpPassword'] = '';
+$Configuration['Garden']['Email']['SmtpPort'] = '25';
+$Configuration['Garden']['Email']['SmtpSecurity'] = '';
+$Configuration['Garden']['Version'] = '2.0.18.4';
+$Configuration['Garden']['RewriteUrls'] = TRUE;
+$Configuration['Garden']['CanProcessImages'] = TRUE;
+$Configuration['Garden']['Installed'] = TRUE;
+$Configuration['Garden']['Theme'] = 'aiqingda';
+$Configuration['Garden']['MobileTheme'] = 'mobile';
+$Configuration['Garden']['Locale'] = 'zh-CN';
+$Configuration['Garden']['Analytics']['AllowLocal'] = TRUE;
+$Configuration['Garden']['InstallationID'] = 'B419-58A2B24E-D1803621';
+$Configuration['Garden']['InstallationSecret'] = '63215851ca68d8cd200f6bb2148b853e5110183e';
+$Configuration['Garden']['Format']['Hashtags'] = FALSE;
+$Configuration['Garden']['Messages']['Cache'] = 'a:3:{i:0;s:10:"[NonAdmin]";i:1;s:10:"[NonAdmin]";i:2;s:25:"Vanilla/Discussions/Index";}';
+$Configuration['Garden']['EditContentTimeout'] = '604800';
+$Configuration['Garden']['Errors']['MasterView'] = 'deverror.master.php';
+$Configuration['Garden']['Upload']['MaxFileSize'] = '1M';
+$Configuration['Garden']['Logo'] = 'C6LOMEKUKLCH.png';
+$Configuration['Garden']['Search']['Mode'] = 'matchboolean';
+
+// LatestComment
+$Configuration['LatestComment']['Show']['LatestComment'] = 'YES';
+$Configuration['LatestComment']['Location']['Show'] = 'every';
+$Configuration['LatestComment']['Limit'] = '10';
+
+// Meta
+$Configuration['Meta']['Description'] = '爱青大 ，爱青大BBS，青海大学，青大信息，青大学生，青大考研，青海大学，青海大学信息，青海大学论坛，青海大学学生论坛，青海高等学府，青海省，青海大学BBS，青海大学学生BBS';
+$Configuration['Meta']['Keywords'] = '爱青大  爱青大BBS  青海大学论坛 青海大学人 青海大学学生 青海大学';
+
+// Modules
+$Configuration['Modules']['Vanilla']['Content'] = 'a:6:{i:0;s:13:"MessageModule";i:1;s:7:"Notices";i:2;s:21:"NewConversationModule";i:3;s:19:"NewDiscussionModule";i:4;s:7:"Content";i:5;s:3:"Ads";}';
+$Configuration['Modules']['Conversations']['Content'] = 'a:6:{i:0;s:13:"MessageModule";i:1;s:7:"Notices";i:2;s:21:"NewConversationModule";i:3;s:19:"NewDiscussionModule";i:4;s:7:"Content";i:5;s:3:"Ads";}';
+
+// Plugins
+$Configuration['Plugins']['GettingStarted']['Dashboard'] = '1';
+$Configuration['Plugins']['GettingStarted']['Plugins'] = '1';
+$Configuration['Plugins']['GettingStarted']['Categories'] = '1';
+$Configuration['Plugins']['GettingStarted']['Discussion'] = '1';
+$Configuration['Plugins']['GettingStarted']['Profile'] = '1';
+$Configuration['Plugins']['GettingStarted']['Registration'] = '1';
+$Configuration['Plugins']['LocaleDeveloper']['Key'] = 'Chinese';
+$Configuration['Plugins']['LocaleDeveloper']['Name'] = 'Simplified Chinese Locale(简体中文)';
+$Configuration['Plugins']['LocaleDeveloper']['Locale'] = 'zh-CN';
+$Configuration['Plugins']['LocaleDeveloper']['CaptureDefinitions'] = '1';
+$Configuration['Plugins']['Tagging']['Enabled'] = TRUE;
+$Configuration['Plugins']['OpenID']['Enabled'] = TRUE;
+$Configuration['Plugins']['GoogleSignIn']['Enabled'] = TRUE;
+$Configuration['Plugins']['StopForumSpam']['UserID'] = '4';
+$Configuration['Plugins']['Signatures']['Enabled'] = TRUE;
+$Configuration['Plugins']['Flagging']['Enabled'] = TRUE;
+$Configuration['Plugins']['Flagging']['UseDiscussions'] = FALSE;
+$Configuration['Plugins']['KarmaBank']['Version'] = '0.9.6.2b';
+$Configuration['Plugins']['KarmaBank']['Enabled'] = TRUE;
+$Configuration['Plugins']['KarmaBank']['StartingBalance'] = '10.00';
+$Configuration['Plugins']['KarmaBank']['CommentShowBalance'] = '1';
+$Configuration['Plugins']['SEO']['Enabled'] = TRUE;
+$Configuration['Plugins']['AutoExpireDiscussions']['Version'] = '0.1b';
+$Configuration['Plugins']['PageSpeed']['IsDisabled'] = FALSE;
+$Configuration['Plugins']['PageSpeed']['AllInOne'] = 0;
+$Configuration['Plugins']['PageSpeed']['DeferJavaScript'] = 0;
+$Configuration['Plugins']['PageSpeed']['ParallelizeEnabled'] = FALSE;
+$Configuration['Plugins']['PageSpeed']['ParallelizeHosts'] = '';
+$Configuration['Plugins']['PageSpeed']['CDN']['jquery'] = '201204201129';
+$Configuration['Plugins']['PageSpeed']['CDN']['jqueryui'] = '201204201129';
+$Configuration['Plugins']['PageSpeed']['CDN']['jqueryui-theme'] = '201204201129';
+$Configuration['Plugins']['PageSpeed']['DisableMinifyCss'] = FALSE;
+$Configuration['Plugins']['PageSpeed']['JoinLocaleSources'] = FALSE;
+$Configuration['Plugins']['ChinesePreference']['ShortLink'] = TRUE;
+$Configuration['Plugins']['HidePanel']['Page1'] = '/discussions';
+$Configuration['Plugins']['HidePanel']['Page2'] = '';
+$Configuration['Plugins']['HidePanel']['Page3'] = '';
+$Configuration['Plugins']['HidePanel']['HideToggle'] = 'toggle';
+$Configuration['Plugins']['HidePanel']['AllDisc'] = FALSE;
+$Configuration['Plugins']['DiscussionMark']['Enabled'] = FALSE;
+$Configuration['Plugins']['DiscussionMark']['EnableEliteTag'] = TRUE;
+$Configuration['Plugins']['DiscussionMark']['EnableRecommendTag'] = TRUE;
+$Configuration['Plugins']['DiscussionMark']['EnableEliteLevel'] = TRUE;
+$Configuration['Plugins']['DiscussionMark']['EnableEliteTab'] = TRUE;
+$Configuration['Plugins']['DiscussionMark']['Elite3CommentNum'] = '100';
+$Configuration['Plugins']['DiscussionMark']['Elite2CommentNum'] = '30';
+$Configuration['Plugins']['DiscussionMark']['Elite1CommentNum'] = '1';
+$Configuration['Plugins']['DiscussionMark']['EliteLable'] = '';
+$Configuration['Plugins']['DiscussionMark']['RecommendLable'] = '推荐';
+$Configuration['Plugins']['TecentConnect']['APPID'] = '100266222';
+$Configuration['Plugins']['TecentConnect']['KEY'] = '36b69ba130510b8165b0fd29b3dd3060';
+$Configuration['Plugins']['TecentConnect']['ConsumerKey'] = '100266222';
+$Configuration['Plugins']['TecentConnect']['Secret'] = '36b69ba130510b8165b0fd29b3dd3060';
+$Configuration['Plugins']['TecentConnect']['SiteUrl'] = 'www.aiqingda.com';
+$Configuration['Plugins']['Tecent']['ChooseName'] = TRUE;
+$Configuration['Plugins']['HideCategory']['NoCat'] = 'zhaopinjianzhi';
+$Configuration['Plugins']['HideCategory']['NoCat2'] = '';
+$Configuration['Plugins']['HideCategory']['NoCat3'] = '';
+$Configuration['Plugins']['HideCategory']['NoCat4'] = '';
+$Configuration['Plugins']['HideCategory']['NoCat5'] = '';
+$Configuration['Plugins']['HideCategory']['NoCat6'] = '';
+$Configuration['Plugins']['Akismet']['UserID'] = '1132';
+
+// Preferences
+$Configuration['Preferences']['Email']['ActivityComment'] = TRUE;
+$Configuration['Preferences']['Email']['AddedToConversation'] = TRUE;
+$Configuration['Preferences']['Email']['BookmarkComment'] = TRUE;
+$Configuration['Preferences']['Email']['CommentMention'] = TRUE;
+$Configuration['Preferences']['Email']['ConversationMessage'] = TRUE;
+$Configuration['Preferences']['Email']['DiscussionComment'] = TRUE;
+$Configuration['Preferences']['Email']['DiscussionMention'] = TRUE;
+$Configuration['Preferences']['Email']['WallComment'] = TRUE;
+
+// Routes
+$Configuration['Routes']['DefaultController'] = 'a:2:{i:0;s:22:"categories/discussions";i:1;s:8:"Internal";}';
+$Configuration['Routes']['ZXhhbXBsZS1wYWdl'] = 'a:2:{i:0;s:17:"page/example-page";i:1;s:8:"Internal";}';
+$Configuration['Routes']['c2l0ZW1hcGluZGV4LnhtbA=='] = 'a:2:{i:0;s:25:"/utility/sitemapindex.xml";i:1;s:8:"Internal";}';
+$Configuration['Routes']['c2l0ZW1hcC0oLisp'] = 'a:2:{i:0;s:19:"/utility/sitemap/$1";i:1;s:8:"Internal";}';
+$Configuration['Routes']['cm9ib3RzLnR4dA=='] = 'a:2:{i:0;s:15:"/utility/robots";i:1;s:8:"Internal";}';
+$Configuration['Routes']['ZmFxcw=='] = 'a:2:{i:0;s:16:"plugin/page/faqs";i:1;s:8:"Internal";}';
+$Configuration['Routes']['Z2FsbGVyeQ=='] = 'a:2:{i:0;s:14:"plugin/gallery";i:1;s:8:"Internal";}';
+
+// TopPosters
+$Configuration['TopPosters']['Limit'] = '5';
+$Configuration['TopPosters']['Location']['Show'] = 'discussion';
+$Configuration['TopPosters']['Excluded'] = 'a:2:{i:0;s:1:"1";i:1;s:1:"7";}';
+$Configuration['TopPosters']['Show']['Medal'] = 'both';
+
+// UserList
+$Configuration['UserList']['Limit'] = '10';
+$Configuration['UserList']['Hide'] = FALSE;
+$Configuration['UserList']['Random'] = '1';
+$Configuration['UserList']['Photo'] = '1';
+$Configuration['UserList']['NoPhoto'] = FALSE;
+$Configuration['UserList']['Title'] = '都有谁在这里';
+$Configuration['UserList']['ShowNumUsers'] = '1';
+
+// Vanilla
+$Configuration['Vanilla']['Version'] = '2.0.18.4';
+$Configuration['Vanilla']['Categories']['MaxDisplayDepth'] = '0';
+$Configuration['Vanilla']['Categories']['DoHeadings'] = FALSE;
+$Configuration['Vanilla']['Categories']['HideModule'] = FALSE;
+$Configuration['Vanilla']['Comments']['AutoOffset'] = FALSE;
+$Configuration['Vanilla']['Comments']['AutoRefresh'] = '300';
+$Configuration['Vanilla']['Comments']['PerPage'] = '30';
+$Configuration['Vanilla']['Discussions']['PerPage'] = '50';
+$Configuration['Vanilla']['Archive']['Date'] = '';
+$Configuration['Vanilla']['Archive']['Exclude'] = FALSE;
+$Configuration['Vanilla']['Discussion']['SpamCount'] = '1';
+$Configuration['Vanilla']['Discussion']['SpamTime'] = '240';
+$Configuration['Vanilla']['Discussion']['SpamLock'] = '300';
+$Configuration['Vanilla']['Comment']['SpamCount'] = '5';
+$Configuration['Vanilla']['Comment']['SpamTime'] = '60';
+$Configuration['Vanilla']['Comment']['SpamLock'] = '300';
+$Configuration['Vanilla']['Comment']['MaxLength'] = '80000';
+$Configuration['Vanilla']['AdminCheckboxes']['Use'] = TRUE;
+
+// VanillaCMS
+$Configuration['VanillaCMS']['Version'] = '1.0b2';
+
+// WhosOnline
+$Configuration['WhosOnline']['Frequency'] = '600';
+$Configuration['WhosOnline']['Location']['Show'] = 'discussion';
+$Configuration['WhosOnline']['Hide'] = '1';
+
+// Last edited by sarowlwp (111.161.79.17)2014-04-29 12:22:11

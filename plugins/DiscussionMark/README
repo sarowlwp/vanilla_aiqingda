@@ -1,0 +1,19 @@
+Allows you to create a global discussion prefix (ex: [Solved]) that can be applied 
+to discussions via a custom-labelled checkbox on the new/edit discussion form.
+
+Creates new permissions for managing and using prefixes that must be enabled in
+the dashboard before users will be able to use it.
+
+**Requires Vanilla 2.0.14 (yup, not released yet).
+
+To make compatible with 2.0.13, edit applications/vanilla/views/post/discussion.php
+
+Find this near line 41:
+
+      if ($Options != '')
+         echo '<ul class="PostOptions">' . $Options .'</ul>';
+
+And ADD this BEFORE it:
+
+      $this->EventArguments['Options'] = &$Options;
+      $this->FireEvent('DiscussionFormOptions');

@@ -76,7 +76,6 @@
         </div>
     </div>
     <div id="Foot">
-		<hr/>
                 <div class="Row" style="width: 100%; height: 130px; margin: 0px;">
                         <div class="clearfix">
                                 <dl class="list">
@@ -103,7 +102,7 @@
                                 </dd>
                                 </dl>
 								<dl class="list list_right">
-                                <dt></dt>
+                                <dt>声明</dt>
                                         <dd>
                                                 请遵守中华人民共和国相关法律 - 本站会员观点不代表本站立场<br> <br>
                                         </dd>
@@ -114,7 +113,7 @@
                                                 <a href="/index.php?p=/plugin/page/about">关于爱青大BBS社区</a> - 联系我们：aiqingdabbs#sina.com (#换@)<br> <br>
                                         </dd>
                                         <dd>
-                                                {asset name="Foot"}
+                                                
                                                 统计工具：
                                                 <script type="text/javascript">
                                                 	var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
@@ -124,6 +123,7 @@
                                 </dl>
                         </div>
                 </div>
+                {asset name="Foot"}
     </div>
 </div>
 {event name="AfterBody"}

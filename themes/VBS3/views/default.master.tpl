@@ -102,9 +102,7 @@
                                 <a href=http://www.qhwww.com target=_blank>青海网址导航</a>
                                 </dd>
                                 </dl>
-
-                                </dl>
-				<dl class="list list_right">
+								<dl class="list list_right">
                                 <dt></dt>
                                         <dd>
                                                 请遵守中华人民共和国相关法律 - 本站会员观点不代表本站立场<br> <br>
@@ -117,11 +115,11 @@
                                         </dd>
                                         <dd>
                                                 {asset name="Foot"}
-                                                统计工具：<script type="text/javascript">
-                                                var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-                                                document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F9ff9ad53101fc9dbdb96824a251db3a7' type='text/javascript'%3E%3C/script%3E"));
+                                                统计工具：
+                                                <script type="text/javascript">
+                                                	var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                                                	document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F9ff9ad53101fc9dbdb96824a251db3a7' type='text/javascript'%3E%3C/script%3E"));
                                                 </script>
-
                                         </dd>
                                 </dl>
                         </div>

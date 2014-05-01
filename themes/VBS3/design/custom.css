@@ -1107,7 +1107,7 @@ td.LatestPost {
 	}
 }
 
-.Announcement .Title{
+.Announcement .Title a{
     color: #EE1B2E;
     //text-shadow: 0 1px 1px #FFEC8B;
 }

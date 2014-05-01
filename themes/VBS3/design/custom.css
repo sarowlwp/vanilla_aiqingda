@@ -1038,6 +1038,9 @@ td.LatestPost {
 }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait), (max-width: 960px) {
+	    #Foot {
+	        display: none
+	   }
 	    #Panel {
 	        display: none
 	   }
@@ -1152,3 +1155,4 @@ td.LatestPost {
 #JumpToTop {
     background-image: url("images/arrow_up.png");
 }
+

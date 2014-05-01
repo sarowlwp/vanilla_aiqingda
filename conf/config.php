@@ -46,7 +46,6 @@ $Configuration['EnabledPlugins']['VanillaStats'] = TRUE;
 $Configuration['EnabledPlugins']['JumpToTop'] = TRUE;
 $Configuration['EnabledPlugins']['Ignore'] = TRUE;
 $Configuration['EnabledPlugins']['KarmaBank'] = TRUE;
-$Configuration['EnabledPlugins']['PictureGallery'] = TRUE;
 
 // Garden
 $Configuration['Garden']['ContentType'] = 'text/html';
@@ -201,4 +200,4 @@ $Configuration['Routes']['Z2FsbGVyeQ=='] = array('plugin/gallery', 'Internal');
 // Vanilla
 $Configuration['Vanilla']['Version'] = '2.1';
 
-// Last edited by sarowlwp (111.161.79.17)2014-05-01 12:56:39
+// Last edited by sarowlwp (111.161.79.17)2014-05-01 13:03:11

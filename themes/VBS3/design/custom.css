@@ -1,3 +1,7 @@
+.Announcement .Title{
+    color: #EE1B2E;
+    //text-shadow: 0 1px 1px #FFEC8B;
+}
 #Foot a {
     color: #428bca;
 }

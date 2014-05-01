@@ -1,0 +1,9 @@
+#JumpToTop {
+	position: fixed;
+	bottom: 14px;
+    display: none;
+    width: 64px;
+    height: 64px;
+    background-image: url("jump.png");
+    background-repeat: no-repeat;
+}

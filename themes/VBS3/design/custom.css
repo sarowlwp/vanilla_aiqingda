@@ -1148,3 +1148,7 @@ td.LatestPost {
 #Foot .siteinfo {
     margin: 10px;
 }
+
+#JumpToTop {
+    background-image: url("images/arrow_up.png");
+}

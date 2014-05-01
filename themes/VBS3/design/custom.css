@@ -1038,72 +1038,73 @@ td.LatestPost {
 }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait), (max-width: 960px) {
-    #Panel {
-        display: none
-   }
-   body.EditMode .DismissMessage {
-       display: none
-  }
-  body.EditMode form.Thumbnail table td {
-      padding-right: 0px
- }
- body.EditMode form.Thumbnail table thead td: nth-child(2) {
-     font-size: 70%
-}
-body.EditMode #Panel {
-    display: block !important;
-    width: auto;
-    float: none
-}
-body.EditMode #Panel .UserBox {
-    display: none
-}
-body.EditMode #Panel .Box {
-    margin-bottom: 0px;
-    border: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none
-}
-body.EditMode #Panel .Box ul {
-    padding: 0px 0px 5px 0px
-}
-body.EditMode #Panel .Box ul li {
-    display: inline-block;
-    border: none;
-    margin: 0.25px
-}
-body.EditMode #Panel .Box ul li.Active {
-    background: none !important;
-    background-color: transparent !important
-}
-body.EditMode #Panel .Box ul li.Active a {
-    color: #ffffff;
-    font-weight: normal;
-    background-color: #428bca !important
-}
-body.EditMode #Panel .Box ul li a {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    padding: 10px 15px
-}
-#Content .BoxNewDiscussion {
-    display: block
-}
-#Content .BoxNewDiscussion .Button {
-    padding: 3px 6px
-}
-#Body .ContentColumn {
-    margin: 0
-}
-.Row {
-    width: inherit;
-    margin: 0 20px;
-    min-width: inherit
-}
-.NavBar .MeWrap {
-    right: 40px !important
+	    #Panel {
+	        display: none
+	   }
+	   body.EditMode .DismissMessage {
+	       display: none
+	  }
+	  body.EditMode form.Thumbnail table td {
+	      padding-right: 0px
+	 }
+	 body.EditMode form.Thumbnail table thead td: nth-child(2) {
+	     font-size: 70%
+	}
+	body.EditMode #Panel {
+	    display: block !important;
+	    width: auto;
+	    float: none
+	}
+	body.EditMode #Panel .UserBox {
+	    display: none
+	}
+	body.EditMode #Panel .Box {
+	    margin-bottom: 0px;
+	    border: none;
+	    -webkit-box-shadow: none;
+	    -moz-box-shadow: none;
+	    box-shadow: none
+	}
+	body.EditMode #Panel .Box ul {
+	    padding: 0px 0px 5px 0px
+	}
+	body.EditMode #Panel .Box ul li {
+	    display: inline-block;
+	    border: none;
+	    margin: 0.25px
+	}
+	body.EditMode #Panel .Box ul li.Active {
+	    background: none !important;
+	    background-color: transparent !important
+	}
+	body.EditMode #Panel .Box ul li.Active a {
+	    color: #ffffff;
+	    font-weight: normal;
+	    background-color: #428bca !important
+	}
+	body.EditMode #Panel .Box ul li a {
+	    -webkit-border-radius: 5px;
+	    -moz-border-radius: 5px;
+	    border-radius: 5px;
+	    padding: 10px 15px
+	}
+	#Content .BoxNewDiscussion {
+	    display: block
+	}
+	#Content .BoxNewDiscussion .Button {
+	    padding: 3px 6px
+	}
+	#Body .ContentColumn {
+	    margin: 0
+	}
+	.Row {
+	    width: inherit;
+	    margin: 0 20px;
+	    min-width: inherit
+	}
+	.NavBar .MeWrap {
+	    right: 40px !important
+	}
 }
 
 .Announcement .Title{

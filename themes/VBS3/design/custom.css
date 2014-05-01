@@ -599,7 +599,8 @@ form.Activity textarea, #DiscussionForm textarea {
     height: 38px;
     -webkit-border-radius: 0.5ex;
     -moz-border-radius: 0.5ex;
-    border-radius: 0.5ex
+    border-radius: 0.5ex;
+    display:none;
 }
 .DataList.Discussions .MCount .Number, .DataList.Discussions .HasNew .Number {
     font-size: 20px;

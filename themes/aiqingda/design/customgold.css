@@ -1,0 +1,3528 @@
+@import "http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, hr, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+:focus {
+    outline: 0 none;
+}
+body {
+    background-image: url("images/bkg.png");
+    color: #000000;
+    line-height: 1;
+}
+ol, ul {
+    list-style: none outside none;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+.Message img {
+    border-radius: 3px 3px 3px 3px;
+}
+body {
+    background: url("images/bkg.png") repeat fixed 0 0 transparent;
+    color: #000000;
+    font-family: 'Lato',sans-serif;
+    font-size: small;
+    line-height: 1.7em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#Body {
+    margin: 15px auto 0;
+    text-align: left;
+    width: 960px;
+}
+#Content {
+    background-image: url("images/background.png");
+    border: 1px solid #FBFBFB;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 6px #888888;
+    color: #000000;
+    float: left;
+    margin: 0 0 10px;
+    padding: 7px 11px;
+    width: 680px;
+}
+.Hidden {
+    display: none;
+}
+.nowrap {
+    white-space: nowrap;
+}
+.Center {
+    text-align: center;
+}
+.Right {
+    text-align: right;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #000000;
+    font-family: 'Lato',sans-serif;
+    font-weight: normal;
+    margin: 0;
+}
+hr {
+    border-bottom: 1px dashed #BEC8CC;
+    width: 100%;
+}
+p {
+    line-height: 1.6em;
+    margin: 0.5em 0 0;
+}
+.P {
+    margin: 0.5em 0;
+}
+h1 {
+    font-size: 140%;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 130%;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 120%;
+    font-weight: bold;
+}
+h4 {
+    color: #000000;
+    font-size: 120%;
+    text-shadow: 0 1px 1px #FFFFFF;
+}
+h5 {
+    color: #000000;
+    font-size: 120%;
+    text-shadow: 0 1px 1px #FFFFFF;
+}
+a {
+    color: #613900;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #FFFFFF;
+}
+a:hover {
+    color: #613900;
+    text-decoration: underline;
+}
+img.Thumbnail {
+    float: left;
+    margin: 0 16px 0 0;
+    max-height: 300px;
+    max-width: 100px;
+}
+input.DateBox, input.InputBox, input.SmallInput, textarea {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #AAAAAA;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 1px 2px #AAAAAA inset;
+    color: #000000;
+    font-family: 'Lato',sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 3px;
+    width: 250px;
+}
+.TextBoxWrapper {
+    padding-right: 8px;
+    width: auto;
+}
+textarea.TextBox {
+    height: 100px;
+    min-height: 100px;
+    width: 500px;
+}
+#Popup textarea.TextBox {
+    width: 100%;
+}
+input.SmallInput, input.InputBox {
+    padding: 6px 3px;
+}
+input.SmallInput:focus, input.InputBox:focus, textarea:focus {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+input.BigInput {
+    width: 100%;
+}
+textarea {
+    background: none repeat scroll 0 0 transparent;
+    line-height: 128%;
+}
+select {
+    color: #222222;
+    font-family: 'Lato',sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 3px;
+}
+a.Button, .Button {
+    border: 1px solid #FAFAFA;
+    border-radius: 2px 2px 2px 2px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 11px;
+    margin: 0;
+    padding: 4px;
+    text-shadow: 0 1px 0 #FFFFFF;
+    white-space: nowrap;
+}
+a.Button {
+    display: inline-block;
+    line-height: 100%;
+    margin: 3px auto;
+    padding: 4px;
+}
+input.Button {
+    font-size: 14px;
+    font-weight: bold;
+}
+.Button:hover {
+    border: 1px solid #999999;
+    color: #000000;
+    text-decoration: none;
+}
+.Button:focus {
+    background: none repeat scroll 0 0 #DDDDDD;
+}
+.Buttons {
+    margin-top: 10px;
+}
+.Loading {
+    background: url("images/progress.gif") no-repeat scroll center center transparent;
+    height: 100px;
+    padding: 0 20px;
+}
+.Progress {
+    background: url("images/progress.gif") no-repeat scroll center center transparent;
+    padding: 10px 40px 10px 0;
+}
+.TinyProgress {
+    background: url("images/progress_sm.gif") no-repeat scroll center center transparent;
+    padding: 10px 40px 10px 0;
+}
+.Conversations .Deleted {
+    text-decoration: line-through;
+}
+.Deleted {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px 3px 3px 3px;
+    margin: 10px 0 0;
+    padding: 6px 10px;
+}
+.Warning {
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    padding: 6px 8px;
+}
+.Alert {
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 2px 2px 2px 2px;
+    color: #FFFFFF;
+    padding: 1px 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+.Alert a {
+    color: #FFFFFF;
+}
+.Alert a:hover {
+    text-decoration: underline;
+}
+.Info {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #454545;
+    border-radius: 4px 4px 4px 4px;
+    color: #888888;
+    font-size: 13px;
+    margin: 0 0 10px;
+    padding: 6px;
+}
+.Info strong {
+    font-weight: bold;
+}
+#PagerLess {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    margin-bottom: 1px;
+    text-align: left;
+}
+.MorePager a.Loading {
+    background: url("images/progress.gif") no-repeat scroll center center transparent !important;
+    border: 0 none !important;
+    padding: 0 20px !important;
+}
+#PagerMore {
+    margin-bottom: 1px;
+}
+.NumberedPager, .PrevNextPager {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 1px 0 0;
+    text-align: right;
+}
+#PagerBefore {
+    margin: 1px 0;
+}
+.NumberedPager a, .NumberedPager span {
+    padding: 0 4px;
+}
+.NumberedPager span, .NumberedPager a.Highlight {
+    color: #444444;
+}
+.NumberedPager a.Next, .NumberedPager span.Next, .NumberedPager a.Previous, .NumberedPager span.Previous {
+    font-size: 16px;
+    line-height: 10px;
+}
+.NumberedPager a.Next, .NumberedPager span.Next {
+    margin-left: 6px;
+}
+.NumberedPager a.Previous, .NumberedPager span.Previous {
+    margin-right: 6px;
+}
+a.Small:hover {
+    text-decoration: none;
+}
+a.Small img {
+    background: none repeat scroll 0 0 #DDDDDD;
+    display: inline-block;
+    height: 24px;
+    overflow: hidden;
+    text-indent: -100px;
+    width: 24px;
+}
+.DismissMessage a.Dismiss {
+    color: #000000;
+    font-family: 'Lato',sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1;
+    position: absolute;
+    right: 5px;
+    top: 3px;
+}
+.DismissMessage a.Dismiss, .DismissMessage a.Dismiss:hover {
+    border-radius: 0 0 0 0;
+    color: #777777;
+    display: block;
+    font-family: 'Lato',sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    height: 14px;
+    margin: 0;
+    padding: 1px 3px 2px 4px;
+    right: -1px;
+    top: -1px;
+    width: auto;
+}
+.DismissMessage strong {
+    font-weight: bold;
+}
+.DismissMessage a.Dismiss:hover {
+    background: none repeat scroll 0 0 #333333;
+    border: medium none;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.DismissMessage {
+    border: medium none;
+    border-radius: 0 0 0 0;
+    color: #000000;
+    margin: 0 0 10px;
+    padding: 10px;
+    position: relative;
+    text-align: left;
+}
+.DismissMessage p {
+    margin: 2px 0;
+}
+.DismissMessage.Info {
+    background: none repeat scroll 0 0 #000000;
+}
+.DismissMessage.Warning {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #AAAAAA;
+}
+.DismissMessage.Box {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #C5BEA4;
+    box-shadow: none;
+}
+#Head {
+    background: url("images/hbackground.png") repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #252525;
+    box-shadow: 0 0 6px #444444;
+    padding: 0;
+}
+.Search:after, div#Search:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+body #Head h1 {
+    border: 0 none;
+    display: inline-block;
+    font-weight: bold;
+    margin: 0;
+    padding: 11px 10px 4px 0;
+}
+#Head h1 a span {
+    color: #FAFAFA;
+    font-size: 24px;
+}
+#Head .Search, #Head #Search {
+    bottom: 6px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+}
+#Head form {
+    float: right;
+    padding: 0;
+    width: 250px;
+}
+#Head form input.InputBox {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("images/bkg.png") repeat fixed 0 0 transparent;
+    border-color: -moz-use-text-color;
+    border-radius: 3px 3px 3px 3px;
+    border-style: none;
+    border-width: 0 0 3px;
+    box-shadow: 0 0 4px #444444 inset;
+    color: #000000;
+    font-size: 13px;
+    margin: 0 5px 0.5px 0;
+    padding: 4px;
+    vertical-align: bottom;
+    width: 200px;
+}
+#Head form input.Button {
+    border: medium none;
+    font-size: 11px;
+    margin: 0 0 0.7px;
+}
+.Menu {
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    vertical-align: bottom;
+    width: 960px;
+}
+#Menu {
+    display: inline-block;
+    margin-right: 0;
+    vertical-align: bottom;
+}
+#Menu li {
+    display: block;
+    float: left;
+    font-weight: normal;
+    line-height: 27px;
+    list-style: none outside none;
+    margin: 0 4px 0 0;
+    padding: 0;
+    position: relative;
+    text-align: left;
+}
+* html #Menu li {
+    display: inline;
+}
+#Menu a {
+    border: 0 none;
+    display: block;
+    font-size: 16px;
+    height: 28px;
+    padding: 0 7px 5.5px;
+    position: relative;
+    text-decoration: none;
+    white-space: nowrap;
+}
+* html #Menu a {
+    display: inline;
+    padding: 5px 10px;
+}
+#Menu li.NonTab, #Menu li.NonTab a {
+    font-weight: normal;
+}
+#Menu ul {
+    background: none repeat scroll 0 0 transparent;
+}
+#Menu a {
+    color: #FFFFFF;
+    text-shadow: none;
+}
+#Menu a:hover {
+    color: #EEEEEE;
+    text-decoration: none;
+}
+#Menu a span, #Menu li.Active a span, #Menu li.Highlight a:hover span {
+    background: none repeat scroll 0 0 transparent;
+    border-radius: 2px 2px 2px 2px;
+    color: #299FC7;
+    font-size: 9px;
+    font-weight: normal;
+    line-height: 12px;
+    padding: 0 2px;
+    text-shadow: none;
+}
+.OptionsMenu {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 100%;
+}
+.Item .OptionsMenu {
+    vertical-align: top;
+    visibility: hidden;
+}
+.Open.OptionsMenu, .Item:hover .OptionsMenu {
+    visibility: visible;
+}
+.MenuTitle {
+    -moz-user-select: none;
+    background: url("images/buttons.png") no-repeat scroll right -96px transparent;
+    border: 1px solid #292929;
+    border-radius: 2px 2px 2px 2px;
+    color: #000000;
+    padding: 4px 18px 4px 4px;
+}
+.Open .MenuTitle {
+    background: url("images/buttons.png") no-repeat scroll right -144px #282828;
+    border: 1px solid #282828;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+}
+.MenuItems {
+    background: none repeat scroll 0 0 #444444;
+    border: 1px solid #282828;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+    font-size: 10px;
+    line-height: 100%;
+    min-width: 125px;
+}
+.MenuItems li {
+    padding: 6px !important;
+}
+.MenuItems a, .MenuItems a:link, .MenuItems a:visited, .MenuItems a:active {
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+    text-shadow: none;
+}
+.MenuItems li:hover {
+    background: none repeat scroll 0 0 #000000;
+}
+.ToggleFlyout {
+    cursor: pointer;
+    position: relative;
+}
+.ToggleFlyout.Open {
+    z-index: 100;
+}
+.ToggleFlyout .Flyout {
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 100%;
+    z-index: 100;
+}
+#Panel {
+    float: right;
+    width: 245px;
+}
+.Box {
+    background: url("images/background.png") repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #FBFBFB;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 6px #888888;
+    color: #000000;
+    margin: 0 0 10px;
+    padding: 6px 10px;
+}
+.Box a {
+}
+.Box h4 {
+    color: #000000;
+    font-size: 110%;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 1px;
+    text-shadow: 0 1px 1px #FFFFFF;
+}
+.Box dl {
+    overflow: hidden;
+}
+.Box dl dt {
+    color: #444444;
+    float: left;
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 80px;
+}
+.Box dl dd {
+    font-size: 12px;
+    margin-left: 80px;
+}
+.Box p {
+    color: #000000;
+    font-size: 100%;
+    padding: 0 0 4px;
+}
+.PanelActivity {
+    border-bottom: 0 none;
+    border-top: 1px solid #BEC8CC;
+}
+.PanelActivity li {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #BEC8CC;
+    color: #000000;
+    font-size: 11px;
+    line-height: 1.6;
+    padding: 2px 4px;
+}
+.PanelActivity li a {
+    font-size: 13px;
+}
+.PanelActivity li a.Name {
+    margin-right: 2px;
+}
+.PanelActivity span {
+    padding: 0 4px;
+}
+.PanelActivity p {
+    display: inline;
+    font-size: 90%;
+    padding: 0 4px;
+}
+.PanelActivity li em {
+    color: #777777;
+    font-size: 80%;
+    padding-left: 5px;
+}
+.PanelActivity li .Story {
+    font-size: 85%;
+}
+.PanelInfo li {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #BEC8CC;
+    box-shadow: 0 1px 0 #FCFCFC;
+    padding: 2px 4px;
+    text-align: right;
+}
+.PanelInfo li.Heading {
+    color: #000000;
+    font-weight: bold;
+    text-align: left;
+}
+.PanelInfo {
+    border-bottom: 0 none;
+    border-top: 1px solid #BEC8CC;
+    box-shadow: 0 1px 0 #FCFCFC inset;
+}
+.PanelInfo li strong {
+    font-weight: normal;
+    text-align: left;
+}
+.PanelInfo li a {
+    float: left;
+}
+.Moderators ul.PanelInfo li {
+    text-align: left;
+}
+.Moderators ul.PanelInfo li a {
+    float: none;
+    font-weight: bold;
+}
+.Moderators ul.PanelInfo li a img {
+    vertical-align: middle;
+}
+.PanelInfo .Meta {
+    font-size: 11px;
+}
+.PanelInfo .Meta span, .PanelInfo .Meta strong {
+    margin-right: 8px;
+}
+.PanelInfo .Meta span a {
+    margin-left: 8px;
+}
+.PanelInfo .Meta strong {
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 2px 2px 2px 2px;
+    color: #000000;
+    display: inline;
+    font-size: 9px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 3px;
+}
+.PanelInfo .Parent {
+    background: none repeat scroll 0 0 transparent;
+    color: #000000;
+    font-weight: bold;
+    padding: 2px 0;
+    text-align: left;
+}
+.PanelInfo .Active {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #BEC8CC;
+    box-shadow: 0 1px 0 #FCFCFC;
+}
+.PanelInfo .Active a {
+    color: #999999;
+}
+.PanelActivity .ShowAll, .PanelInfo .ShowAll {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-weight: bold;
+    text-align: right;
+}
+#UserOptions {
+    margin-bottom: 10px;
+}
+body.Profile .PanelInfo {
+    border-bottom: 1px solid #999999;
+}
+body.Profile .PanelInfo li {
+    border-bottom: 0 none;
+    text-align: left;
+}
+body.Profile .PanelInfo li a {
+    float: none;
+}
+a.BigButton {
+    background-image: url("images/hbackground.png");
+    border: 1px solid #252525;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 0 6px #444444;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 8px 0;
+    text-align: center;
+    text-shadow: none;
+}
+a.BigButton:hover {
+    border: 1px solid #252525;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: none;
+}
+a.BigButton:focus {
+    background-image: url("images/hbackground.png");
+    border: 1px solid #000000;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 0 5px #000000 inset;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: none;
+}
+.PanelCategories .Depth2 {
+    padding-left: 8px;
+}
+.PanelCategories .Depth3 {
+    padding-left: 12px;
+}
+.PanelCategories .Depth4 {
+    padding-left: 16px;
+}
+.PanelCategories .Depth5 {
+    padding-left: 20px;
+}
+.PanelCategories .Depth6 {
+    padding-left: 24px;
+}
+.PanelCategories .Depth7 {
+    padding-left: 28px;
+}
+.PanelCategories .Depth8 {
+    padding-left: 32px;
+}
+.PanelCategories .Depth9 {
+    padding-left: 36px;
+}
+.PanelCategories .Depth10 {
+    padding-left: 40px;
+}
+.PanelCategories .Depth11 {
+    padding-left: 44px;
+}
+.PanelCategories .Depth12 {
+    padding-left: 48px;
+}
+.CategoryList .Depth2 {
+    padding-left: 25px !important;
+}
+.CategoryList .Depth3 {
+    padding-left: 50px !important;
+}
+.CategoryList .Depth4 {
+    padding-left: 75px !important;
+}
+.CategoryList .Depth5 {
+    padding-left: 100px !important;
+}
+.CategoryList .Depth6 {
+    padding-left: 125px !important;
+}
+.CategoryList .Depth7 {
+    padding-left: 150px !important;
+}
+.CategoryList .Depth8 {
+    padding-left: 175px !important;
+}
+.CategoryList .Depth9 {
+    padding-left: 200px !important;
+}
+.CategoryList .Depth10 {
+    padding-left: 225px !important;
+}
+.CategoryList .Depth11 {
+    padding-left: 250px !important;
+}
+.CategoryList .Depth12 {
+    padding-left: 275px !important;
+}
+.CategoryListWithHeadings .Depth2 {
+    padding-left: 0 !important;
+}
+.CategoryListWithHeadings .Depth3 {
+    padding-left: 25px !important;
+}
+.CategoryListWithHeadings .Depth4 {
+    padding-left: 50px !important;
+}
+.CategoryListWithHeadings .Depth5 {
+    padding-left: 75px !important;
+}
+.CategoryListWithHeadings .Depth6 {
+    padding-left: 100px !important;
+}
+.CategoryListWithHeadings .Depth7 {
+    padding-left: 125px !important;
+}
+.CategoryListWithHeadings .Depth8 {
+    padding-left: 150px !important;
+}
+.CategoryListWithHeadings .Depth9 {
+    padding-left: 175px !important;
+}
+.CategoryListWithHeadings .Depth10 {
+    padding-left: 200px !important;
+}
+.CategoryListWithHeadings .Depth11 {
+    padding-left: 225px !important;
+}
+.CategoryListWithHeadings .Depth12 {
+    padding-left: 250px !important;
+}
+.Box.RecentUsers {
+    float: left;
+}
+.Icons a {
+    display: block;
+    float: left;
+    margin: 0 2px 2px 0;
+}
+.Icons img {
+    background: none repeat scroll 0 0 transparent;
+    color: #C4CDE0;
+    display: block;
+    height: 44px;
+    overflow: hidden;
+    text-indent: 50px;
+    width: 44px;
+}
+.Empty {
+    margin: 10px 0;
+}
+.DataList .Item {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #BEC8CC;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    box-shadow: 0 1px 0 #FCFCFC;
+    margin: 0;
+    padding: 4px 0;
+    position: relative;
+}
+.DataList .Item .Item {
+    border-bottom: medium none;
+}
+.DataList .Options, .MessageList .Options {
+    margin: 2px 4px 0 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.DataList .OptionButton {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.DataList a.Title {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.DataList .Title {
+    display: block;
+    font-size: 14px;
+    margin: 0;
+}
+.DataList .Title a {
+    font-size: 120%;
+    font-weight: bold;
+}
+.DataList .Meta {
+    color: #444444;
+    font-size: 11px;
+    padding-bottom: 7px;
+}
+.DataList .Excerpt {
+    font-size: 12px;
+    line-height: 1.4;
+}
+.DataList .Excerpt a {
+    color: #000000;
+    display: block;
+}
+.DataList .Excerpt p {
+    display: inline;
+    padding: 0;
+}
+.DataList.Discussions .Meta span, .DataList .Meta strong {
+    margin-right: 12px;
+}
+.DataList .Meta .MetaLabel {
+    margin-right: 2px;
+}
+.DataList .Meta strong {
+    background: none repeat scroll 0 0 transparent;
+    border-radius: 2px 2px 2px 2px;
+    color: #000000;
+    font-size: 9px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 3px;
+}
+.DataList .Meta .Tag a {
+    color: #000000;
+}
+.DataList a.Delete, .DataList a.Delete:hover {
+    border-radius: 0 0 0 0;
+    color: #000000;
+    display: block;
+    font-family: 'Lato',sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    height: 14px;
+    line-height: 1;
+    margin: 0;
+    padding: 2px 4px;
+    width: auto;
+}
+.DataList a.Delete:hover {
+    background: none repeat scroll 0 0 #333333;
+    border: medium none;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.DataList .Unfollow {
+    background: none repeat scroll 0 0 #EEEEEE;
+}
+.DataList .Unfollow a {
+    color: #888888;
+}
+.Item .Inset {
+    border-top: 1px solid #BEC8CC;
+    box-shadow: 0 1px 0 #FCFCFC;
+    padding: 5px 0;
+}
+.Condensed, .Condensed li {
+    clear: left;
+}
+.Condensed .Title, .Condensed a.Title {
+    display: inline;
+    padding: 0;
+}
+.Condensed .Excerpt {
+    display: inline;
+}
+.Condensed .Excerpt a {
+    display: block;
+    padding: 3px 0;
+}
+body.Activity h1 {
+    margin: 0;
+}
+body.Profile ul.Activities {
+    border-top: 1px solid #454545;
+    margin-top: 10px;
+}
+.Activities li.HasPhoto .Title {
+    padding: 0;
+}
+.Activities a.Title, .Activities .Title, .Activities .Title a {
+    font-size: 14px;
+}
+.Activities .Excerpt {
+    color: #444444;
+}
+.Activities li.Condensed .Excerpt {
+    color: #000000;
+    font-size: 13px;
+}
+.Activities .Excerpt a, .Activities .Meta a {
+    color: #613900;
+}
+.Activities .Excerpt a:hover, .Activities .Meta a:hover {
+    color: #613900;
+}
+.Activities .Excerpt img {
+    border: 1px solid #999999;
+    padding: 2px;
+}
+.Activities ul.DataList {
+    margin-left: 50px;
+    width: 400px;
+}
+.Activities .ItemContent {
+    width: 631px;
+}
+.Activities .HasPhoto .ItemContent {
+    margin-left: 53px;
+    width: 578px;
+}
+.Activities .Item .HasPhoto .ItemContent {
+    margin-left: 42px;
+    width: auto;
+}
+.Activities .DataList li {
+    background: none repeat scroll 0 0 transparent;
+    border-top: 1px dashed #BBBBBB;
+    box-shadow: none;
+    margin: 5px 0 2px;
+    padding: 7px;
+}
+.Activities .DataList a.Title, .Activities .DataList .Title, .Activities .DataList .Title a, .Activities .DataList .Excerpt p {
+    font-size: 13px;
+    line-height: 1;
+}
+.HasPhoto .Excerpt, .HasPhoto .Meta {
+    display: block;
+}
+.Activities .DataList .HasPhoto .Meta {
+    line-height: 1;
+    padding: 2px 0 0;
+}
+.Activities .DataList .Photo img {
+    height: 32px;
+    width: 32px;
+}
+.Activities a.CommentLink, .Activities a.CommentLink:hover {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #AAAAAA;
+    border-radius: 1px 1px 1px 1px;
+    box-shadow: 0 1px 2px #AAAAAA inset;
+    color: #666666 !important;
+    cursor: text;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 100%;
+    padding: 5px;
+    text-decoration: none;
+    text-shadow: none;
+}
+.Activities .CommentForm form div {
+    text-align: right;
+}
+.Activities .CommentForm textarea.TextBox {
+    font-size: 12px;
+    height: 40px;
+    margin-bottom: 2px;
+    min-height: 40px;
+    width: 380px;
+}
+.Activities .CommentForm input.Button {
+    box-shadow: 0 0 9px #999999;
+    font-size: 12px;
+}
+.MessageList, .MessageList li {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.MessageList .Item {
+    border-bottom: 1px solid #BEC8CC;
+    box-shadow: 0 1px 0 #FCFCFC;
+    padding: 10px 10px 4px;
+}
+.MessageList .Meta {
+    color: #000000;
+    font-size: 11px;
+    min-height: 40px;
+}
+.MessageList .Meta a {
+    color: #613900;
+}
+.Item .Author img {
+    background: none repeat scroll 0 0 transparent;
+    border: 2px solid #000000;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 1px 1px 0 #FCFCFC;
+    float: left;
+    height: 40px;
+    margin: 0 10px 0 0;
+    overflow: hidden;
+    width: 40px;
+}
+.MessageList .Meta span {
+    line-height: 2.5;
+    padding-left: 10px;
+}
+.MessageList .Meta .Author {
+    padding: 0;
+}
+.MessageList .Meta .Author a {
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+}
+.MessageList .Meta span {
+    line-height: inherit;
+}
+.MessageList .Meta .CommentInfo {
+    line-height: normal;
+}
+.MessageList .Meta .CommentInfo span {
+    padding-left: 0;
+    padding-right: 10px;
+}
+.Preview {
+    background: none repeat scroll 0 0 transparent;
+    margin: 4px 0 8px;
+    padding: 1px 8px;
+    text-align: left;
+}
+.Popup .Preview {
+    margin: 0;
+    padding: 8px;
+}
+body.Post .Popup a.Close {
+    color: #000000;
+}
+.Preview .Message, .MessageList .Message {
+    background: none repeat scroll 0 0 transparent;
+    clear: both;
+    font-size: 100%;
+    line-height: 140%;
+    word-wrap: break-word;
+}
+.Preview .Message, .Preview .Message p, .MessageList .Message, .MessageList .Message p {
+    margin: 8px 0;
+}
+.Preview .Message blockquote, .MessageList .Message blockquote {
+    background: url("images/quote.png") no-repeat scroll left top transparent;
+    border: 1px solid #BEC8CC;
+    border-radius: 5px 5px 5px 5px;
+    margin: 4px 0;
+    padding: 4px 20px;
+}
+.MessageList .Message small {
+    color: #777777;
+    font-size: 11px;
+}
+code, pre {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #EEEECC;
+    border-radius: 2px 2px 2px 2px;
+    font-family: 'Lato',sans-serif;
+    overflow: auto;
+    padding: 4px 8px;
+    white-space: pre;
+}
+pre {
+    display: block;
+}
+.Preview .Message strong, .MessageList .Message strong {
+    font-weight: bold;
+}
+.Preview .Message em, .MessageList .Message em {
+    font-style: oblique;
+}
+.Preview .Message ul, .Preview .Message ol, .MessageList .Message ul, .MessageList .Message ol {
+    background: none repeat scroll 0 0 transparent;
+    margin-left: 3em !important;
+}
+.Preview .Message ol li, .MessageList .Message ol li {
+    list-style: decimal outside none !important;
+}
+.Preview .Message ul li, .MessageList .Message ul li {
+    list-style: disc outside none !important;
+}
+.Message h1, .Message h2, .Message h3, .Message h4, .Message h5 {
+    border: medium none;
+    color: #000000;
+    font-family: 'Lato',sans-serif;
+    font-weight: bold;
+}
+.Message h1 {
+    font-size: 22px;
+}
+.Message h2 {
+    font-size: 20px;
+}
+.Message h3 {
+    font-size: 18px;
+}
+.Message h4 {
+    font-size: 16px;
+}
+.Message h5 {
+    font-size: 14px;
+}
+.Message .ImageResized {
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.Foot {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #BEC8CC;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    box-shadow: 0 1px 0 #FCFCFC;
+    padding: 6px;
+    text-align: right;
+}
+.Foot a.TabLink {
+    margin-left: 10px;
+}
+.Foot .Note {
+    float: left;
+    font-weight: bold;
+    line-height: 2.6;
+    padding: 0 0 0 8px;
+}
+.ChildCategories {
+    border-top: 1px dotted #DDDDDD;
+    display: block;
+}
+.DataList .Meta .RSS {
+    margin-right: 6px;
+}
+.Meta .RSS img {
+    vertical-align: text-bottom;
+}
+.CategoryHeading .ItemContent {
+    font-size: 14px;
+    font-weight: bold;
+}
+body.Profile #Content {
+    float: right;
+    margin: 0 0 40px 20px;
+    width: 650px;
+}
+body.Profile #Panel {
+    float: left;
+    width: 250px;
+}
+.User {
+    line-height: 150%;
+}
+.User, .User a {
+    text-decoration: none;
+}
+.User h1 {
+    border: 0 none;
+    line-height: 100%;
+    margin: 0;
+    padding: 0 0 8px;
+}
+#Status {
+    background: none repeat scroll 0 0 transparent;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    color: #000000;
+    font-weight: normal;
+    line-height: 1.5;
+    margin: 0;
+    padding: 8px 8px 0;
+}
+#Status p {
+    color: #6C6C6C;
+    display: inline;
+    font-size: 120%;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+#Status a.Change {
+    font-size: 11px;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+#Status a:hover {
+    text-decoration: underline;
+}
+.User form {
+    background: none repeat scroll 0 0 transparent;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    padding: 8px 8px 0;
+}
+.User form input.InputBox {
+    margin-right: 2px;
+    width: 618px;
+}
+form.Activity {
+    display: block;
+    padding: 10px 10px 0;
+    text-align: right;
+}
+form.Activity textarea {
+    height: 45px;
+    margin-bottom: 2px;
+    min-height: 45px;
+    width: 100%;
+}
+#Form_Invitation table {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #BEC8CC;
+    border-collapse: collapse;
+    margin: 10px 0;
+    width: 100%;
+}
+#Form_Invitation table label {
+    font-size: 12px;
+    padding: 0;
+}
+#Form_Invitation table tr.Last td, #Form_Invitation table tr.Last th {
+    border-bottom: 0 none;
+}
+#Form_Invitation table th, #Form_Invitation table td {
+    color: #555555;
+    font-weight: normal;
+    padding: 6px;
+}
+#Form_Invitation table thead th, #Form_Invitation table thead td {
+    border-bottom: 1px solid #BEC8CC;
+}
+#Form_Invitation table tbody th {
+    color: #000000;
+    font-weight: bold;
+}
+#Form_Invitation table tbody th, #Form_Invitation table tbody td {
+    border-bottom: 1px solid #BEC8CC;
+    line-height: 150%;
+}
+#Form_Invitation table thead th {
+    color: #000000;
+    font-size: 13px;
+    font-weight: bold;
+}
+#Form_Invitation table.AltRows tr.Alt th, #Form_Invitation table.AltRows tr.Alt td, #Form_Invitation table.AltColumns th.Alt, #Form_Invitation table.AltColumns td.Alt {
+    background: none repeat scroll 0 0 transparent;
+}
+#Form_Invitation table.AltColumns tr.Alt {
+    background: none repeat scroll 0 0 transparent;
+}
+body.Profile ul.Notifications {
+    border-top: 0 none;
+    margin-top: 0;
+}
+.Preferences h3 {
+    margin: 0;
+    padding: 10px 0 4px !important;
+}
+table.PreferenceGroup thead td {
+    border-bottom: 1px solid #AAAAAA;
+    border-top: 1px solid #AAAAAA;
+    font-weight: bold;
+    padding: 2px 6px;
+}
+table.PreferenceGroup tbody td {
+    border-bottom: 1px solid #EEEEEE;
+    padding: 2px 6px;
+}
+table.PreferenceGroup tbody td.PrefCheckBox {
+    text-align: center;
+}
+table.PreferenceGroup td.Description {
+    font-size: 12px;
+}
+.Tabs, .Headings {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #BEC8CC;
+    box-shadow: 0 1px 0 #FCFCFC;
+    color: #000000;
+    display: block;
+    margin: 0;
+    padding: 1px;
+    position: relative;
+}
+.MessageForm {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #000000;
+    padding: 0;
+}
+.MessageForm .Tabs {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    padding: 0;
+    text-align: left;
+}
+.MessageForm .Tabs ul {
+    display: inline;
+}
+.Tabs li {
+    display: inline;
+    margin: 0;
+}
+.TabLink, .TabLink:link, .TabLink:hover, .TabLink:active, .TabLink:visited {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #BEC8CC;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 1px 0 #FCFCFC;
+    color: #000000;
+    display: inline;
+    font-weight: bold;
+    line-height: 3;
+    margin: 0;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #FFFFFF;
+    white-space: nowrap;
+}
+.TabLink:hover {
+    background: none repeat scroll 0 0 transparent;
+}
+.Active .TabLink {
+    background: none repeat scroll 0 0 transparent;
+    color: #000000;
+}
+.Count {
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    font-size: 80%;
+    font-weight: bold;
+    padding: 1px 0.8ex;
+}
+.Tabs li a span {
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    font-size: 80%;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 0 0 4px;
+    padding: 0 3px;
+    text-shadow: none;
+}
+.Tabs .SubTab {
+    background: none repeat scroll 0 0 transparent;
+    border-radius: 2px 2px 2px 2px;
+    font-size: 130%;
+    font-weight: bold;
+    margin: 10px 0 0;
+    padding: 4px 8px;
+    text-shadow: 0 1px 1px #FFFFFF;
+}
+.HeadingTabs {
+    padding: 8px 8px 8px 12px;
+}
+.HeadingTabs ul {
+    display: inline;
+    float: right;
+}
+.HeadingTabs .SubTab {
+    background: none repeat scroll 0 0 transparent;
+    display: inline;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 2.4;
+    padding: 0;
+}
+.SearchTabs input.InputBox {
+    margin-right: 10px;
+    width: 560px;
+}
+.Headings {
+    position: relative;
+    text-align: left;
+}
+.Headings div {
+    display: inline-block;
+    padding-right: 10px;
+}
+.Headings .ItemHeading {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2;
+}
+.Headings .MetaHeading {
+    font-size: 11px;
+}
+.MessageList .Item, body.Discussion #Content, .DiscussionsTabs {
+    position: relative;
+}
+.Tabs .AdminCheck {
+    bottom: 5px;
+    position: absolute;
+    right: 26px;
+}
+.AdminCheck {
+    display: inline-block;
+    height: 22px;
+    vertical-align: top;
+}
+form.Thumbnail table {
+    width: 100%;
+}
+form.Thumbnail table td {
+    width: 50%;
+}
+form.Thumbnail table tr td {
+    vertical-align: top;
+}
+form.Thumbnail table tr th {
+    padding-right: 10px;
+}
+.jcropper-holder {
+    border: 1px solid black;
+}
+.jcrop-holder {
+    text-align: left;
+}
+.jcrop-vline, .jcrop-hline {
+    background: url("images/jcrop.gif") repeat scroll left top white;
+    font-size: 0;
+    position: absolute;
+}
+.jcrop-vline {
+    height: 100%;
+    width: 1px !important;
+}
+.jcrop-hline {
+    height: 1px !important;
+    width: 100%;
+}
+.jcrop-handle {
+    background-color: #333333;
+    border: 1px solid #EEEEEE;
+    font-size: 1px;
+    height: 7px !important;
+    width: 7px !important;
+}
+.jcrop-tracker {
+    height: 100%;
+    width: 100%;
+}
+.custom .jcrop-vline, .custom .jcrop-hline {
+    background: none repeat scroll 0 0 yellow;
+}
+.custom .jcrop-handle {
+    background-color: #C7BB00;
+    border-color: black;
+    border-radius: 3px 3px 3px 3px;
+}
+form.Thumbnail table {
+    width: 100%;
+}
+form.Thumbnail table td {
+    font-weight: normal;
+}
+.Popup .Info {
+    margin-top: 10px;
+}
+.Popup .Loading {
+    display: block;
+    width: 200px;
+}
+.Overlay {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.MSIE .Overlay {
+    background: none repeat scroll 0 0 gray;
+}
+div.Popup {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 5000;
+}
+div.Popup .Border {
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 500px;
+    position: relative;
+    text-align: left;
+}
+div.Popup .Body {
+    background: url("images/background.png") repeat scroll 0 0 transparent;
+}
+div.Popup .Legal, div.Popup .Content form {
+    border-bottom: 1px solid #FAFAFA;
+    border-left: 1px solid #FAFAFA;
+    border-right: 1px solid #FAFAFA;
+    max-height: 440px;
+    overflow: auto;
+    padding: 0 10px 10px;
+}
+div.Popup .Loading {
+    text-align: center;
+}
+div.Popup h1, div.Popup h2 {
+    background-image: url("images/hbackground.png");
+    border-bottom: 1px solid #000000;
+    color: #FFFFFF;
+    font-size: 120%;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding: 6px 9px 4px;
+}
+a.Close {
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Lato',sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 0;
+    position: absolute;
+    right: 20px;
+    top: 7px;
+}
+a.Close:hover {
+    color: #FFFFFF;
+}
+div.Popup .Footer {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+div.Popup .Footer input.Button {
+    font-size: 11px;
+    margin-right: 2px;
+}
+div.Popup h3 {
+    font-size: 120%;
+    font-weight: bold;
+    padding: 20px 0 10px;
+}
+div.Popup p {
+    padding: 6px 10px 10px;
+}
+div.Popup .Legal p {
+    padding: 6px 0 10px;
+}
+div.Popup small {
+    font-size: 11px;
+}
+div.Popup form p {
+    padding: 0;
+}
+body.Profile #Form_Invitation ul li label, body.Profile #Form_User ul li label, div.Popup form ul li label {
+    color: #000000;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+body.Entry form ul li.Gender label.RadioLabel, body.Profile #Form_User ul li.Gender label.RadioLabel, div.Popup form ul li.Gender label.RadioLabel {
+    display: inline;
+    padding-right: 20px;
+}
+li.Gender {
+    margin-bottom: 10px;
+}
+body.Profile #Form_User ul li label.RadioLabel, body.Profile #Form_User ul li label.CheckBoxLabel, div.Popup form ul li label.RadioLabel, div.Popup form ul li label.CheckBoxLabel {
+    font-weight: normal;
+}
+div.Profile #Form_User input.Button, div.Popup input.Button {
+    margin: 4px 0 2px;
+}
+div.Popup #Form_User .Warning, #dashboard_profile_picture #Form_User .Warning {
+    margin: 6px 0;
+}
+div.Popup form ul li label.RadioLabel {
+    font-size: 12px;
+}
+.AjaxError {
+    overflow: auto;
+    padding: 10px;
+    white-space: pre;
+}
+.Legal h3 {
+    font-size: 120%;
+    font-weight: bold;
+    margin: 20px 0 0;
+    padding: 0;
+}
+.Legal ol {
+    list-style-position: outside;
+    list-style-type: decimal;
+    margin: 0 30px 10px;
+}
+.Legal ul {
+    list-style-position: outside;
+    list-style-type: disc;
+    margin: 0 30px 10px;
+}
+.Legal li {
+    padding: 5px 0;
+}
+.Legal strong {
+    font-weight: bold;
+}
+#Foot {
+    clear: both;
+    color: #BBBBBB;
+    font-size: 13px;
+    line-height: 1;
+    margin: 10px 0;
+    padding: 4px 9px;
+}
+#Foot a {
+    color: #999999;
+}
+#Foot a:hover {
+    color: #9A9A9A;
+    text-decoration: none;
+}
+#Foot div {
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    width: 960px;
+}
+#Panel ul.Discussions {
+    border: 0 none;
+}
+.PanelDiscussions li {
+    text-align: left;
+}
+.PanelDiscussions li a {
+    float: none;
+}
+.PanelDiscussions li strong {
+    display: block;
+    line-height: 1.5;
+}
+.Mine {
+    background: none repeat scroll 0 0 transparent;
+}
+.DataList .Meta a.Category {
+    background: none repeat scroll 0 0 transparent;
+    border-radius: 2px 2px 2px 2px;
+    padding: 2px 4px;
+}
+.DataList li.Mine .Meta a.Category {
+    background: none repeat scroll 0 0 transparent;
+}
+.Tag {
+    background: none repeat scroll 0 0 transparent;
+    border-radius: 2px 2px 2px 2px;
+    color: #000000;
+    font-weight: bold;
+    padding: 1px 4px;
+}
+.Tag a {
+    color: #FFFFFF;
+}
+.DataList .Meta .Announcement {
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 2px 2px 2px 2px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 1px 4px;
+}
+.DataList .Meta .Closed {
+    background: none repeat scroll 0 0 #555555;
+    border-radius: 2px 2px 2px 2px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 1px 4px;
+}
+body.Discussion #Content {
+    margin-bottom: 20px;
+}
+ul.Discussion {
+    margin-bottom: 1px;
+}
+a.Bookmark, a.Bookmarked, a.Bookmarking {
+    background: url("images/star_sprite.png") no-repeat scroll center top transparent;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+}
+a.Bookmark span, a.Bookmarking span {
+    display: none;
+}
+a.Bookmarked {
+    background-position: center center;
+}
+a.Bookmarking {
+    background-position: center bottom;
+}
+body.Discussion a.Bookmark {
+    float: right;
+    margin: 5px 0 0 8px;
+}
+body.Discussion .Back {
+    padding: 3px 6px;
+    text-align: left;
+}
+.DataList .ItemContent {
+    background: none repeat scroll 0 0 transparent;
+    margin: 0 0 0 9px;
+}
+.Drafts .ItemContent a.Title, .Discussions .ItemContent a.Title {
+    color: #000000;
+    max-width: 580px;
+    text-shadow: 0 1px 1px #FFFFFF;
+}
+.Editing {
+    background: none repeat scroll 0 0 transparent;
+}
+.CommentForm textarea.TextBox {
+    height: 100px;
+    margin: 0 0 6px;
+    min-height: 100px;
+    width: 100%;
+}
+.Comment .CommentForm {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    padding: 6px 0;
+}
+#DiscussionForm label {
+    color: #666666;
+    font-size: 14px;
+    font-weight: bold;
+}
+body.Post #Panel {
+    display: none;
+}
+body.Post #Content {
+    width: 100%;
+}
+#DiscussionForm h2 {
+    border: medium none;
+    color: #303030;
+    font-size: 140%;
+    font-weight: bold;
+    margin: 0;
+    padding: 6px;
+}
+#DiscussionForm form {
+    background-image: url("images/background.png");
+    border: 0 none;
+    margin: 0;
+}
+#DiscussionForm .Tabs {
+    margin: 0 -20px;
+}
+#DiscussionForm textarea {
+    height: 100px;
+    margin: 0 0 6px;
+    min-height: 100px;
+    width: 100%;
+}
+#DiscussionForm .Category, #DiscussionForm input.InputBox {
+    margin-bottom: 10px;
+    width: 100%;
+}
+#DiscussionForm .Category label {
+    padding: 0 8px 0 0;
+}
+.CommentForm .Buttons {
+    border: medium none;
+    text-align: right;
+}
+.CommentForm a.Back, .CommentForm a.Cancel {
+    float: left;
+}
+#DiscussionForm a.Cancel {
+    margin-left: 18px;
+}
+#DiscussionForm .PostOptions li {
+    display: inline;
+    padding: 0 8px 0 0;
+}
+#DiscussionForm .PostOptions label {
+    color: #555555;
+    display: inline;
+    font-size: 95%;
+    font-weight: normal;
+}
+textarea.MultiComplete {
+    height: 20px;
+    text-align: left;
+    width: 100%;
+}
+.ac_results {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: white;
+    border-color: -moz-use-text-color #BBBBBB #BBBBBB;
+    border-right: 1px solid #BBBBBB;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    overflow: hidden;
+    padding: 0;
+    z-index: 99999;
+}
+.ac_results ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.ac_results li {
+    border-bottom: 1px solid #BBBBBB;
+    cursor: default;
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    overflow: hidden;
+    padding: 5px;
+    text-align: left;
+}
+.ac_lastitem {
+    border-bottom: 0 none !important;
+}
+.ac_results strong {
+    background: none repeat scroll 0 0 transparent;
+    font-weight: bold;
+}
+.ac_over strong {
+    background: none repeat scroll 0 0 transparent;
+    font-weight: bold;
+}
+.ac_over {
+    background: none repeat scroll 0 0 transparent;
+    color: #000000;
+}
+.AddPeople h4 {
+    border-bottom: 0 none;
+}
+#Panel input.InputBox, .AddPeople textarea.MultiComplete {
+    margin-bottom: 2px;
+    width: 100%;
+}
+.AddPeople form div {
+    text-align: right;
+}
+#MessageForm {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin: 1px 0 0;
+    padding: 4px 8px 8px;
+}
+#MessageForm h2 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #000000;
+    font-size: 115%;
+    font-weight: bold;
+}
+#MessageForm form div {
+    background: none repeat scroll 0 0 transparent;
+    text-align: right;
+}
+#MessageForm textarea {
+    background: none repeat scroll 0 0 transparent;
+    height: 100px;
+    margin-bottom: 2px;
+    min-height: 100px;
+    width: 100%;
+}
+body.add #Panel {
+    display: none;
+}
+body.add #Content {
+    width: auto;
+}
+#ConversationForm form {
+    background: none repeat scroll 0 0 transparent;
+    border-radius: 2px 2px 2px 2px;
+    margin: 0;
+    padding: 20px;
+    text-align: right;
+}
+#ConversationForm h2 {
+    border: 0 none;
+    color: #292929;
+    font-size: 140%;
+    font-weight: bold;
+    margin: 0;
+    padding: 6px;
+    text-align: left;
+}
+#ConversationForm label {
+    color: #666666;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+}
+#ConversationForm .TextBox {
+    height: 100px;
+    margin: 8px 0 6px;
+    min-height: 100px;
+    width: 100%;
+}
+body.Conversations a.Cancel {
+    margin-left: 20px;
+}
+.Popup #ConversationForm form {
+    background: none repeat scroll 0 0 transparent;
+    padding: 10px;
+}
+.Popup #ConversationForm h2 {
+    color: #FFFFFF;
+    font-size: 120%;
+    font-weight: bold;
+    padding: 6px 9px 4px;
+}
+.Popup #ConversationForm textarea.MultiComplete, .Popup #ConversationForm .TextBox {
+    width: 100%;
+}
+.UploadProgress {
+    background: url("images/upload-progress-back.gif") repeat scroll 0 0 transparent;
+    border: 1px solid #BEC8CC;
+    border-radius: 2px 2px 2px 2px;
+    color: #FFFFFF;
+    margin: 10px 0;
+    text-shadow: 0 1px 1px #333333;
+    width: 200px;
+    z-index: 0;
+}
+.UploadProgress div {
+    padding: 2px 0;
+}
+.UploadProgress div strong {
+    font-weight: bold;
+}
+.UploadProgress .Foreground, .UploadProgress .Background {
+    position: absolute;
+}
+.UploadProgress .Background {
+    background: url("images/upload-bg.gif") repeat scroll 0 0 transparent;
+    width: 0;
+    z-index: 1;
+}
+.UploadProgress .Foreground {
+    overflow: visible;
+    text-indent: 6px;
+    white-space: nowrap;
+    z-index: 2;
+}
+.Border {
+    border-radius: 0 0 0 0;
+    box-shadow: 0 0 9px #000000;
+    padding: 0;
+}
+ul.Tabs {
+    border-bottom: 1px solid #AAAAAA;
+    padding-left: 4px;
+    text-align: left;
+}
+ul.Tabs li {
+    display: inline-block;
+}
+ul.Tabs li a {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-color: #AAAAAA;
+    border-radius: 3px 3px 0 0;
+    border-style: solid;
+    border-width: 1px 1px 0;
+    color: #888888;
+    display: inline-block;
+    margin-left: 4px;
+    padding: 2px 8px 1px;
+    position: relative;
+    top: 1px;
+}
+ul.Tabs li a:hover {
+    background: none repeat scroll 0 0 #F5F5F5;
+    color: #444444;
+}
+ul.Tabs li a.Active {
+    background: none repeat scroll 0 0 transparent;
+    color: #000000;
+    padding: 2px 8px;
+}
+ul.Tabs li a.EntryTabFor_password {
+    background-image: url("images/icon.png");
+    background-position: 3px 4px;
+    background-repeat: no-repeat;
+    padding-left: 22px;
+}
+body.Entry {
+    text-align: center;
+}
+body.Entry #Panel {
+    display: none;
+}
+body.Entry #Content {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    width: 360px;
+}
+body.Entry #Content h1 {
+    border: medium none;
+    color: #000000 !important;
+    font-size: 140%;
+    font-weight: bold;
+    margin: 0;
+    padding: 6px;
+    text-align: left;
+}
+body.Entry #Content form {
+    padding: 10px;
+    text-align: left;
+}
+body.Entry form ul li label {
+    color: #474747;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 0 0;
+}
+body.Entry form ul li label.CheckBoxLabel, body.Entry form ul li label.RadioLabel {
+    font-size: 12px;
+    font-weight: normal;
+    width: auto;
+}
+body.Entry input.DateBox, body.Entry input.InputBox, body.Entry textarea {
+    width: 310px;
+}
+span.Incorrect {
+    color: red;
+    display: block;
+}
+body#dashboard_entry_password #Content, body#dashboard_entry_signin #Content, body#dashboard_entry_index #Content {
+    width: auto;
+}
+.SignInPopup .Content form {
+    padding: 0 10px 10px;
+}
+body#dashboard_entry_password #Content form, body#dashboard_entry_index #Content form, body#dashboard_entry_signin #Content form {
+    padding: 0;
+    text-align: left;
+}
+body#dashboard_entry_password #Content form, body#dashboard_entry_signin #Content form, body#dashboard_entry_index #Content form, .SignInPopup form {
+    width: 270px;
+}
+.SingleEntryMethod {
+    margin: 0 auto;
+    width: 290px;
+}
+.MultipleEntryMethods {
+    margin: 0 auto;
+    width: 500px;
+}
+.MultipleEntryMethods .Methods {
+    border-left: 1px solid #BEC8CC;
+    box-shadow: 1px 0 0 #FCFCFC;
+}
+body#dashboard_entry_handshake #Content input.InputBox, body#dashboard_entry_signin #Content input.InputBox, body#dashboard_entry_index #Content input.InputBox, body#dashboard_entry_password #Content input.InputBox, .SignInPopup input.DateBox, .SignInPopup input.InputBox, .SignInPopup textarea {
+    padding: 3px;
+    width: 260px;
+}
+.SignInPopup form ul li label, body#dashboard_entry_signin form ul li label, body#dashboard_entry_index form ul li label, body#dashboard_entry_password form ul li label, body#dashboard_entry_handshake form ul li label {
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 0;
+}
+body#dashboard_entry_password #Content form ul li input#Form_Email, body#dashboard_entry_signin #Content form ul li input#Form_Email, body#dashboard_entry_index #Content form ul li input#Form_Email {
+    margin-bottom: 6px;
+}
+body#dashboard_entry_password #Content input.Password, body#dashboard_entry_signin #Content input.Password, body#dashboard_entry_index #Content input.Password, .SignInPopup input.Password {
+    width: 180px;
+}
+a.ForgotPassword {
+    margin-left: 10px;
+}
+li.Buttons div a.ForgotPassword {
+    margin: 0;
+}
+body#dashboard_entry_password ul li label.CheckBoxLabel, body#dashboard_entry_signin ul li label.CheckBoxLabel, body#dashboard_entry_index ul li label.CheckBoxLabel, .SignInPopup ul li label.CheckBoxLabel {
+    color: #777777;
+    display: inline;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 10px 0 0 10px;
+}
+body.Entry li.Buttons input.Button, .SignInPopup li.Buttons input.Button {
+    margin: 10px 0;
+}
+.Entry {
+    position: relative;
+}
+.Methods {
+    bottom: 0;
+    line-height: 1;
+    padding: 12px 20px 6px;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    top: 33px;
+    width: 170px;
+}
+body#dashboard_entry_password .Methods, body#dashboard_entry_signin .Methods, body#dashboard_entry_index .Methods {
+    background: none repeat scroll 0 0 transparent;
+    padding: 10px 6px 6px;
+}
+.Methods .Method {
+    padding: 10px 0 0;
+    text-align: left;
+}
+body#dashboard_entry_handshake #Content {
+    width: 720px;
+}
+body#dashboard_entry_handshake #Content form {
+    padding: 20px 30px 26px;
+}
+body#dashboard_entry_handshake ul.NewAccount {
+    border-right: 1px solid #AAAAAA;
+    float: left;
+    margin-right: 44px;
+    width: 315px;
+}
+body#dashboard_entry_handshake ul.LinkAccount {
+    margin-left: 315px;
+}
+ul.NewAccount h2, ul.LinkAccount h2 {
+    background: url("images/dashboard-sprites.png") no-repeat scroll 0 -542px transparent;
+    padding-left: 36px !important;
+}
+ul.LinkAccount h2 {
+    background-position: 45px -296px;
+    padding-left: 84px !important;
+}
+body#dashboard_entry_handshake .Info {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #AAAAAA;
+    color: #000000;
+}
+body#dashboard_entry_handshake #Content h2 {
+    border: medium none;
+    color: #000000;
+    font-size: 140%;
+    font-weight: bold;
+    margin: 0;
+    padding: 6px 0;
+    text-align: left;
+}
+body#dashboard_entry_leave p {
+    margin: 0;
+    padding: 20px 10px;
+}
+body#dashboard_entry_leave p.Leaving {
+    background: url("images/progress.gif") no-repeat scroll left center transparent;
+    margin: 0 0 0 14px;
+    padding: 20px 0 20px 50px;
+}
+.Connect h1, .Connect h2 {
+    text-align: left;
+}
+.ConnectInfo {
+    margin: 10px 0 0;
+    position: relative;
+}
+.ConnectInfo img {
+    height: 36px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 36px;
+}
+.ConnectInfo span.Name {
+    color: #444444;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1;
+    padding-left: 46px;
+}
+.ConnectInfo h3 {
+    border: medium none;
+    color: #000000;
+    font-family: 'Lato',sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.6;
+    padding: 0 0 10px 46px;
+}
+.Connect form ul li label, .SignInPopup form ul li label, body#dashboard_entry_password form ul li label, body#dashboard_entry_signin form ul li label, body#dashboard_entry_index form ul li label {
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 0;
+}
+.Connect form ul li#ConnectPassword label, .SignInPopup form ul li#ConnectPassword label {
+    padding: 10px 0 0;
+}
+.Connect .FinePrint, .SignInPopup .FinePrint {
+    color: #777777;
+    font-size: 11px;
+}
+body#dashboard_entry_password input.InputBox, body#dashboard_entry_signin input.InputBox, body#dashboard_entry_index input.InputBox, .Connect input.InputBox, .SignInPopup input.InputBox {
+    padding: 3px;
+}
+.Connect .ExistingUsername, .SignInPopup .ExistingUsername {
+    color: #000000;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1;
+}
+.Errors {
+    left: auto;
+    margin: 0 0 10px !important;
+    position: inherit;
+    text-align: left;
+    top: auto;
+    z-index: auto;
+}
+* html .Errors {
+    left: auto;
+    overflow: auto;
+    position: inherit;
+    top: auto;
+    width: auto;
+}
+.Errors ul {
+    background: none repeat scroll 0 0 transparent !important;
+    border: 1px solid #AAAAAA !important;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: none;
+    display: block;
+    padding: 6px 10px;
+}
+.Errors ul li {
+    background: none repeat scroll 0 0 transparent !important;
+    color: #000000 !important;
+    text-align: left;
+}
+div.Popup .Errors ul {
+    border: 1px solid #AA0000 !important;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: none;
+    display: block;
+}
+div.Popup .Errors {
+    left: auto;
+    margin: 10px 0 !important;
+    position: inherit;
+    text-align: left;
+    top: auto;
+    z-index: auto;
+}
+.Errors pre {
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 0 2px #333333;
+    display: block;
+    margin: 10px 0 5px;
+    overflow: auto;
+    padding: 4px 8px;
+    white-space: pre;
+}
+.Errors pre, .Errors pre * {
+    background: none repeat scroll 0 0 transparent !important;
+    color: #000000 !important;
+    font-family: 'Lato',sans-serif !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
+    line-height: 1.4 !important;
+    text-shadow: none !important;
+}
+.Errors pre * {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.InformMessages {
+    bottom: 20px;
+    display: block;
+    font-size: 12px;
+    left: 20px;
+    list-style: none outside none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: fixed;
+    text-align: left !important;
+    top: auto;
+    width: auto;
+    z-index: 200;
+}
+* html .InformMessages {
+    margin-left: 20px;
+    overflow: visible;
+    position: absolute;
+    top: auto;
+}
+.InformMessages .InformWrapper {
+    display: block;
+}
+.InformMessages .InformMessage {
+    background: none repeat scroll 0 0 #000000 !important;
+    border: medium none !important;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 7px #222222;
+    color: #CCCCCC !important;
+    display: inline-block;
+    line-height: 1.6;
+    margin: 10px auto 0 !important;
+    max-width: 400px !important;
+    padding: 9px 14px 8px !important;
+    position: relative;
+    text-align: left !important;
+    text-shadow: 0 1px 1px #000000;
+    width: auto !important;
+}
+.InformMessages .InformMessage:hover {
+    background: none repeat scroll 0 0 #333333 !important;
+}
+.InformMessages .InformMessage a {
+    color: #FFFFFF;
+}
+.InformMessages .InformMessage a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+.InformMessages .InformMessage strong {
+    font-weight: bold;
+}
+.InformMessages .InformMessage a.Close {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    border-top-right-radius: 2px;
+    color: #DDDDDD;
+    display: none;
+    font-size: 14px;
+    height: 12px;
+    line-height: 1;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-decoration: none;
+    top: 0;
+    width: 12px;
+}
+.InformMessages .InformMessage a.Close span {
+    display: inline;
+}
+.InformMessages .InformMessage a.Close:hover {
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+}
+.InformMessages .InformMessage:hover a.Close {
+    display: block;
+}
+.InformMessages .Actions a {
+    margin-right: 4px;
+}
+.InformMessages .Actions a:last-child {
+    margin-right: 0;
+}
+.InformMessages .Actions a.CancelAction {
+    color: #AAAAAA;
+}
+.InformMessages .InformWrapper.HasIcon .InformMessage {
+    min-height: 20px;
+    padding-left: 42px !important;
+}
+.InformMessages .InformWrapper.HasSprite .InformMessage {
+    padding-left: 40px !important;
+}
+.InformMessages .InformMessage a.Icon {
+    display: block;
+    height: 28px;
+    left: 5px;
+    position: absolute;
+    top: 5px;
+    width: 28px;
+}
+.InformMessages .InformMessage a.Icon img {
+    height: 28px;
+    width: 28px;
+}
+span.InformSprite {
+    background: url("images/inform-sprites.png") no-repeat scroll -9px -9px transparent;
+    display: block;
+    height: 30px;
+    left: 5px;
+    position: absolute;
+    top: 4px;
+    width: 30px;
+}
+span.InformSprite.Refresh {
+    background-position: -9px -9px;
+}
+span.InformSprite.Recycle {
+    background-position: -57px -9px;
+}
+span.InformSprite.Infinity {
+    background-position: -105px -9px;
+}
+span.InformSprite.Squiggle {
+    background-position: -153px -9px;
+}
+span.InformSprite.Random {
+    background-position: -200px -9px;
+}
+span.InformSprite.Magnify {
+    background-position: -250px -9px;
+}
+span.InformSprite.Location {
+    background-position: -298px -9px;
+}
+span.InformSprite.Bubble {
+    background-position: -346px -9px;
+}
+span.InformSprite.ElipsisBubble {
+    background-position: -394px -9px;
+}
+span.InformSprite.Plus {
+    background-position: -442px -9px;
+}
+span.InformSprite.Time {
+    background-position: -9px -57px;
+}
+span.InformSprite.Eye {
+    background-position: -57px -57px;
+}
+span.InformSprite.Target {
+    background-position: -105px -57px;
+}
+span.InformSprite.Redflag {
+    background-position: -153px -57px;
+}
+span.InformSprite.Flags {
+    background-position: -200px -57px;
+}
+span.InformSprite.Graph {
+    background-position: -250px -57px;
+}
+span.InformSprite.Chart {
+    background-position: -298px -57px;
+}
+span.InformSprite.Envelope {
+    background-position: -346px -57px;
+}
+span.InformSprite.Gear {
+    background-position: -394px -57px;
+}
+span.InformSprite.Gears {
+    background-position: -442px -57px;
+}
+span.InformSprite.Skull {
+    background-position: -9px -106px;
+}
+span.InformSprite.SkullBones {
+    background-position: -57px -106px;
+}
+span.InformSprite.Bird {
+    background-position: -105px -106px;
+}
+span.InformSprite.Present {
+    background-position: -153px -106px;
+}
+span.InformSprite.Thundercloud {
+    background-position: -200px -106px;
+}
+span.InformSprite.Bandaid {
+    background-position: -250px -106px;
+}
+span.InformSprite.Saturn {
+    background-position: -298px -106px;
+}
+span.InformSprite.Star {
+    background-position: -346px -106px;
+}
+span.InformSprite.Heart {
+    background-position: -394px -106px;
+}
+span.InformSprite.Key {
+    background-position: -442px -106px;
+}
+span.InformSprite.Ipod {
+    background-position: -9px -152px;
+}
+span.InformSprite.Iphone {
+    background-position: -57px -152px;
+}
+span.InformSprite.Cabinet {
+    background-position: -105px -152px;
+}
+span.InformSprite.Coffee {
+    background-position: -153px -152px;
+}
+span.InformSprite.Briefcase {
+    background-position: -200px -152px;
+}
+span.InformSprite.Toolcase {
+    background-position: -250px -152px;
+}
+span.InformSprite.Suitcase {
+    background-position: -298px -152px;
+}
+span.InformSprite.Airplane {
+    background-position: -346px -152px;
+}
+span.InformSprite.Spraypaint {
+    background-position: -394px -152px;
+}
+span.InformSprite.MailInbox {
+    background-position: -442px -154px;
+}
+span.InformSprite.WallPicture {
+    background-position: -9px -200px;
+}
+span.InformSprite.Photos {
+    background-position: -57px -200px;
+}
+span.InformSprite.FilmRoll {
+    background-position: -105px -200px;
+}
+span.InformSprite.Drawer {
+    background-position: -153px -200px;
+}
+span.InformSprite.FilmStrip {
+    background-position: -200px -200px;
+}
+span.InformSprite.FilmStrip2 {
+    background-position: -250px -200px;
+}
+span.InformSprite.Gas {
+    background-position: -298px -200px;
+}
+span.InformSprite.Cutlery {
+    background-position: -346px -200px;
+}
+span.InformSprite.Battery {
+    background-position: -394px -200px;
+}
+span.InformSprite.Beaker {
+    background-position: -442px -200px;
+}
+span.InformSprite.Outlet {
+    background-position: -9px -250px;
+}
+span.InformSprite.Pinetree {
+    background-position: -57px -250px;
+}
+span.InformSprite.House {
+    background-position: -105px -250px;
+}
+span.InformSprite.Padlock {
+    background-position: -153px -250px;
+}
+span.InformSprite.Network {
+    background-position: -200px -250px;
+}
+span.InformSprite.Cloud {
+    background-position: -250px -250px;
+}
+span.InformSprite.Download {
+    background-position: -298px -250px;
+}
+span.InformSprite.BookmarkRibbon {
+    background-position: -346px -250px;
+}
+span.InformSprite.Flag {
+    background-position: -394px -250px;
+}
+span.InformSprite.Signpost {
+    background-position: -442px -250px;
+}
+span.InformSprite.Brightness {
+    background-position: -9px -298px;
+}
+span.InformSprite.Contrast {
+    background-position: -57px -298px;
+}
+span.InformSprite.Runner {
+    background-position: -105px -298px;
+}
+span.InformSprite.Zap {
+    background-position: -153px -298px;
+}
+span.InformSprite.MusicNote {
+    background-position: -200px -298px;
+}
+span.InformSprite.Microphone {
+    background-position: -250px -298px;
+}
+span.InformSprite.Tshirt {
+    background-position: -298px -298px;
+}
+span.InformSprite.Paperclip {
+    background-position: -346px -298px;
+}
+span.InformSprite.Monitor {
+    background-position: -394px -298px;
+}
+span.InformSprite.Tv {
+    background-position: -442px -297px;
+}
+span.InformSprite.Compass {
+    background-position: -9px -346px;
+}
+span.InformSprite.Pin {
+    background-position: -57px -346px;
+}
+span.InformSprite.Radar {
+    background-position: -105px -346px;
+}
+span.InformSprite.Location {
+    background-position: -153px -346px;
+}
+span.InformSprite.Telephone {
+    background-position: -200px -346px;
+}
+span.InformSprite.Baby {
+    background-position: -250px -346px;
+}
+span.InformSprite.Ekg {
+    background-position: -298px -346px;
+}
+span.InformSprite.Stopwatch {
+    background-position: -346px -346px;
+}
+span.InformSprite.MedicalBag {
+    background-position: -394px -346px;
+}
+span.InformSprite.ShoppingCart {
+    background-position: -442px -346px;
+}
+span.InformSprite.Dashboard {
+    background-position: -9px -393px;
+}
+span.InformSprite.Dogpaw {
+    background-position: -57px -393px;
+}
+span.InformSprite.Calendar {
+    background-position: -105px -393px;
+}
+span.InformSprite.Lightbulb {
+    background-position: -153px -393px;
+}
+span.InformSprite.Trophy {
+    background-position: -200px -393px;
+}
+span.InformSprite.Camera {
+    background-position: -250px -393px;
+}
+span.InformSprite.Wineglass {
+    background-position: -298px -393px;
+}
+span.InformSprite.Beerglass {
+    background-position: -346px -391px;
+}
+span.InformSprite.Dumbbells {
+    background-position: -394px -393px;
+}
+span.InformSprite.Buoy {
+    background-position: -442px -393px;
+}
+span.InformSprite.Beaker2 {
+    background-position: -9px -440px;
+}
+span.InformSprite.Testtube {
+    background-position: -57px -440px;
+}
+span.InformSprite.Thermometer {
+    background-position: -105px -440px;
+}
+span.InformSprite.Pill {
+    background-position: -153px -440px;
+}
+span.InformSprite.Equalizer {
+    background-position: -200px -440px;
+}
+span.InformSprite.Book {
+    background-position: -250px -440px;
+}
+span.InformSprite.Puzzle {
+    background-position: -298px -440px;
+}
+span.InformSprite.Palette {
+    background-position: -346px -440px;
+}
+span.InformSprite.Umbrella {
+    background-position: -394px -440px;
+}
+span.InformSprite.CoffeeCup {
+    background-position: -442px -440px;
+}
+span.InformSprite.Gameplan {
+    background-position: -9px -490px;
+}
+span.InformSprite.Walk {
+    background-position: -57px -490px;
+}
+span.InformSprite.Map {
+    background-position: -105px -490px;
+}
+span.InformSprite.IndexCards {
+    background-position: -153px -490px;
+}
+span.InformSprite.Piano {
+    background-position: -200px -490px;
+}
+span.InformSprite.Sliders {
+    background-position: -250px -490px;
+}
+span.InformSprite.Widescreen {
+    background-position: -298px -490px;
+}
+span.InformSprite.Badge {
+    background-position: -346px -490px;
+}
+span.InformSprite.Chicken {
+    background-position: -394px -490px;
+}
+span.InformSprite.Bug {
+    background-position: -442px -490px;
+}
+span.InformSprite.SingleUser {
+    background-position: -9px -539px;
+}
+span.InformSprite.Group {
+    background-position: -57px -537px;
+}
+span.InformSprite.Navigation {
+    background-position: -105px -537px;
+}
+span.InformSprite.Balloon {
+    background-position: -153px -537px;
+}
+span.InformSprite.Bowandarrow {
+    background-position: -200px -537px;
+}
+span.InformSprite.Controller {
+    background-position: -250px -537px;
+}
+span.InformSprite.Check {
+    background-position: -298px -537px;
+}
+span.InformSprite.Hanger {
+    background-position: -346px -537px;
+}
+span.InformSprite.Piggybank {
+    background-position: -394px -537px;
+}
+span.InformSprite.Headphones {
+    background-position: -442px -537px;
+}
+span.InformSprite.Landscape {
+    background-position: -9px -586px;
+}
+span.InformSprite.Stats {
+    background-position: -57px -586px;
+}
+span.InformSprite.Idcard {
+    background-position: -105px -586px;
+}
+span.InformSprite.Bullhorn {
+    background-position: -153px -586px;
+}
+span.InformSprite.Food {
+    background-position: -200px -586px;
+}
+span.InformSprite.Moon {
+    background-position: -250px -586px;
+}
+span.InformSprite.Sock {
+    background-position: -298px -586px;
+}
+span.InformSprite.Bone {
+    background-position: -346px -586px;
+}
+span.InformSprite.Golf {
+    background-position: -394px -586px;
+}
+span.InformSprite.Dice {
+    background-position: -442px -586px;
+}
+body.embed {
+    text-align: left;
+}
+body.embed #Content {
+    float: none;
+    margin: 0;
+    width: auto;
+}
+body.embed .InformMessages {
+    display: none;
+}
+body.embed div.Popup h1, body.embed div.Popup h2, body.embed .Connect h1, body.embed .Connect h2 {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #AAAAAA;
+}
+.Embed a {
+    color: #3B5998 !important;
+}
+.Embed a:hover {
+    text-decoration: underline !important;
+}
+.Embed a.Button, .Embed a.Button:hover {
+    color: #333333 !important;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+.Embed h3 {
+    border-bottom: 1px solid #BEC8CC;
+    font-family: 'Lato',sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.Embed .MessageForm {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #AAAAAA;
+    border-top: 1px solid #AAAAAA;
+    padding: 7px 8px;
+}
+.Embed .TextBox {
+    border-radius: 0 0 0 0;
+    font-size: 12px;
+    height: 50px;
+    min-height: 50px;
+    padding: 3px;
+    width: 100%;
+}
+.Embed .Author {
+    color: #777777;
+    display: inline-block;
+    font-size: 11px;
+    padding: 0 8px 0 0;
+}
+.Embed input.Button {
+    font-size: 12px;
+}
+.Embed .Foot {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    text-align: right;
+}
+.Embed .MorePager a, .Embed .MorePager a:link, .Embed .MorePager a:hover, .Embed .MorePager a:active, .Embed .MorePager a:visited {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    padding: 0;
+}
+.Embed .MorePager a.Loading, .Embed .MorePager a.Loading:hover {
+    text-decoration: none !important;
+}
+.Embed .Administration {
+    display: none;
+}
+.Embed .MorePager {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #AAAAAA;
+    padding: 2px 8px 4px;
+}
+.RegardingEvent {
+    background: none repeat scroll 0 0 transparent !important;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF !important;
+    padding: 10px 10px 10px 38px;
+    position: relative;
+    text-align: left !important;
+    text-shadow: 0 1px 1px #000000;
+}
+.RegardingEvent span.InformSprite {
+    left: 5px;
+    top: 5px;
+}
+.RegardingEvent a.ReportedUser, .RegardingEvent a.ReportingUser {
+    color: #CFECFF;
+}
+.RegardingEvent .ReportedReason {
+    font-style: italic;
+    padding: 5px;
+}
+.RegardingEvent .RegardingTime {
+    color: #B1B1B1;
+    font-size: 9px;
+    text-transform: uppercase;
+}
+.RegardingActions {
+    height: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 0 10px;
+    position: relative;
+}
+.RegardingActions .ActionButton {
+    background: none repeat scroll 0 0 transparent !important;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #FFFFFF !important;
+    display: inline-block;
+    margin-right: 4px;
+    padding: 0 5px 2px;
+    text-align: left !important;
+    text-shadow: 0 1px 1px #000000;
+}
+.RegardingActions .ActionButton a {
+    color: #CFECFF;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.ProfilePhotoSmall {
+    height: 24px;
+    width: 24px;
+}
+.ProfilePhotoMedium {
+    height: 40px;
+    width: 40px;
+}
+.PhotoGrid {
+    line-height: 1;
+    margin: 2px -2px;
+}
+.PhotoGrid img {
+    height: 32px;
+    margin: 2px;
+    vertical-align: text-bottom;
+    width: 32px;
+}
+.PhotoGridSmall {
+    line-height: 1;
+    margin: 1px -1px;
+}
+.PhotoGridSmall img {
+    height: 24px;
+    margin: 1px;
+    vertical-align: text-bottom;
+    width: 24px;
+}
+div.AnswerTabs {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #BEC8CC;
+    padding: 0 0 0 8px;
+}
+div.AnswerTabs li a, div.AnswerTabs li a:link, div.AnswerTabs li a:hover, div.AnswerTabs li a:active, div.AnswerTabs li a:visited {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    border-radius: 3px 3px 0 0;
+    display: inline-block;
+    line-height: normal;
+}
+.Loading {
+    background: url("images/progress.gif") no-repeat scroll center center #FFFFFF;
+}
+div.AnswerTabs li.Active a {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 transparent;
+    border-color: #BEC8CC #BEC8CC -moz-use-text-color;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    padding: 6px 10px 5px;
+    position: relative;
+    top: 1px;
+}
+div.HeadingTabs div.SubTab {
+    font-size: 16px;
+}
+.StatBox {
+    background: none repeat scroll 0 0 #666666;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    height: 38px;
+    line-height: 1.2;
+    padding: 5px 5px 0;
+    text-align: center;
+    text-shadow: 0 1px 1px #FFFFFF;
+}
+.StatBox span {
+    display: block;
+    font-size: 9px;
+    font-weight: normal;
+    line-height: 1;
+    min-width: 38px;
+    padding-bottom: 2px;
+    text-shadow: 0 1px 1px #FFFFFF;
+}
+.StatBox, .StatBox a {
+    color: #111111;
+    display: block;
+    text-shadow: 0 1px 1px #FFFFFF;
+}
+.StatBox a {
+    position: relative;
+    text-shadow: none;
+    z-index: 10;
+}
+.StatBox a:hover {
+    color: #999999;
+    text-decoration: none;
+}
+.ViewsBox {
+    background: none repeat scroll 0 0 transparent;
+}
+.FollowsBox {
+    background: none repeat scroll 0 0 transparent;
+}
+.AnswersBox {
+    background: none repeat scroll 0 0 transparent;
+    margin-right: 2px;
+}
+.HasAnswersBox {
+    background: none repeat scroll 0 0 transparent;
+}
+.HasAnswersBox a {
+    color: #454545;
+}
+.VotesBox {
+    background: none repeat scroll 0 0 transparent;
+    margin-left: 4px;
+}
+ul.Discussions div.ItemContent a.Title {
+    max-width: none;
+}
+ul.DataList li.Item {
+    position: relative;
+}
+ul.DataList div.Options {
+    float: none;
+    position: absolute;
+    right: 208px;
+    top: 2px;
+    width: auto;
+}
+ul.DataList div.Meta {
+    z-index: 5;
+}
+div.Meta span.CommentCount {
+    display: none;
+}
+ul.DataList div.Meta strong {
+    border-left: 1px solid #BEC8CC;
+    border-right: 1px solid #BEC8CC;
+    border-top: 1px solid #BEC8CC;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    box-shadow: none;
+    font-weight: normal;
+    left: 365px;
+    position: absolute;
+    top: 40px;
+    white-space: nowrap;
+}
+ul.MessageList li.Item {
+    background: none repeat scroll 0 0 transparent;
+}
+ul.MessageList div.Meta {
+    position: relative;
+}
+ul.MessageList div.Meta span.Votes {
+    background-image: url("images/background.png");
+    border: 1px solid #FBFBFB;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 6px #888888;
+    display: block;
+    line-height: normal;
+    margin: 0 7px;
+    padding: 1px;
+    position: absolute;
+    right: 684px;
+    text-align: center;
+}
+span.Votes a, span.Votes span {
+    display: block;
+}
+ul.MessageList div.Meta span.Votes span {
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 0;
+}
+span.Votes span {
+    background-image: url("images/background.png");
+    color: #000000 !important;
+    min-width: 36px;
+    padding: 0 4px !important;
+    text-shadow: 0 0 5px #FFFFFF;
+}
+span.Votes a {
+    background: none repeat scroll 0 0 transparent;
+    color: #000000;
+    text-shadow: 0 0 5px #FFFFFF;
+}
+span.Votes a.VoteUp {
+    line-height: 100%;
+    padding: 5px 4px 3px;
+}
+span.Votes a.VoteDown {
+    line-height: 100%;
+    padding: 3px 4px 5px;
+}
+span.Votes a:hover {
+    background: none repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFFFFF;
+}
+span.Votes i.ArrowSprite i {
+    display: none;
+}
+i.ArrowSprite {
+    background: url("arrow_sprite.png") no-repeat scroll left top transparent;
+    display: inline-block;
+    height: 32px;
+    width: 28px;
+}
+i.SpriteDown {
+    background-position: left bottom;
+}
+a:hover i.SpriteUp {
+    background-position: right top;
+}
+a:hover i.SpriteDown {
+    background-position: right bottom;
+}
+ul.Discussions a.Bookmark {
+    display: none;
+}
+body.Discussion a.Bookmark {
+    margin: 2px 6px 6px 8px;
+}
+ul.MessageList li.FirstComment {
+}
+div.AnswerTabs {
+    background: none repeat scroll 0 0 transparent;
+    color: #AAAAAA;
+    font-size: 11px;
+    margin-top: 12px;
+    padding: 6px 11px 0;
+    position: relative;
+    text-align: right;
+}
+div.AnswerTabs strong {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    left: 8px;
+    margin-right: 20px;
+    position: absolute;
+}
+div.AnswerTabs ul {
+    display: inline-block;
+    margin: 0 10px;
+}
+body ul div.Comment blockquote.UserQuote {
+    background: url("images/quote.png") no-repeat scroll left top transparent;
+    font-style: italic;
+    margin-right: 10px;
+    padding: 8px 20px;
+}
+div.Comment blockquote.UserQuote div.QuoteAuthor {
+    font-style: normal;
+}
+div.Comment blockquote.UserQuote div.QuoteText {
+    border-left: 1px solid #BBBBBB;
+    color: #222222;
+    padding-left: 5px;
+}
+.Attachment:hover .FileHover {
+    background-image: url("images/background.png");
+    box-shadow: 0 2px 10px #000000;
+    display: block;
+    left: -7px;
+    padding: 15px;
+    position: absolute;
+    top: -7px;
+    z-index: 101;
+}
+.AttachFileLink {
+    border: 1px solid #AAAAAA;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 3px #999999 inset;
+    color: #000000;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px;
+    text-align: center;
+    text-shadow: 0 1.5px 2px #AAAAAA;
+    width: 250px;
+}
+.category-buttons {
+    display: inline-block;
+}
+.category-buttons a {
+    box-shadow: 0 0 3px #999999 inset;
+    color: #000000;
+    display: inline;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2.6;
+    margin-right: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.category-buttons a:hover {
+    background: none repeat scroll 0 0 transparent;
+    box-shadow: 0 0 3px #999999;
+}
+.category-buttons a.selected {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #777777;
+    box-shadow: 0 0 3px #999999;
+    color: #474747;
+}
+span.RoleBadges {
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+}
+span.AdministratorBadge {
+    background: url("images/administrator.gif") no-repeat scroll center center transparent;
+}
+span.ModeratorBadge {
+    background: url("images/moderator.gif") no-repeat scroll center center transparent;
+}
+span.MemberBadge {
+    background: url("images/member.gif") no-repeat scroll center center transparent;
+}
+span.ApplicantBadge {
+}
+span.ConfirmEmailBadge {
+}
+span.GuestBadge {
+    background: url("images/guest.gif") no-repeat scroll center center transparent;
+}
+span.BannedBadge {
+}
+ul#Menu li ul {
+    position: absolute;
+    visibility: hidden;
+}
+ul#Menu li ul li {
+    display: inline;
+    float: none;
+    margin: 0;
+    z-index: 9;
+}
+ul#Menu li ul li a {
+    background: none repeat scroll 0 0 #000000;
+    border-bottom: 1px solid #202020;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: 1px solid #202020;
+    border-right: 1px solid #202020;
+    box-shadow: 0 2.5px 2px #999999;
+    font-size: 15px;
+    margin-left: 15px;
+}
+ul#Menu li ul li a:hover {
+}
+ul.token-input-list {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #AAAAAA;
+    box-shadow: 0 1px 2px #AAAAAA inset;
+}
+ul.token-input-list li input {
+    background: none repeat scroll 0 0 transparent;
+}
+ul.token-input-list-focus li input {
+    border: 1px dashed #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+}
+.cleditorMain {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #AAAAAA;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 2px #AAAAAA inset;
+    max-height: 500px;
+    min-height: 300px;
+}
+.cleditorToolbar {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 1px dashed #AAAAAA;
+}
+#footermenu span {
+    color: #333333;
+    text-shadow: 0 1px 1px #FFFFFF;
+}
+#footermenu a {
+    color: #333333;
+    padding-bottom: 10px;
+}
+#faq {
+    height: 90%;
+    margin: 10px 10px 0;
+}
+.featurebox {
+    border: 1px solid #BEC8CC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 #FCFCFC;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+#megaphone1 {
+    bottom: 10px;
+    position: fixed;
+    right: 50%;
+    z-index: -25;
+}
+#megaphone2 {
+    bottom: 10px;
+    left: 50%;
+    position: fixed;
+    z-index: -25;
+}
+h4 a {
+    color: #000000;
+}
+h4 a:hover {
+    color: #000000;
+}
+.SplashInfo {
+    background: none repeat scroll 0 0 #000000;
+}
+.ywp-container a {
+    text-shadow: none;
+}
+.TaggedHeading {
+    border-bottom: 1px solid #BEC8CC;
+    box-shadow: 0 1px 0 #FCFCFC;
+}
+span.udb {
+    font-size: 113%;
+    font-weight: bold;
+}
+ul .DataList {
+    border: medium none;
+}
+span.likes {
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 3px 3px 3px 3px;
+    font-weight: bold;
+}
+.Discussion.ItemContent {
+    margin-left: 70px;
+    padding-left: 65px;
+    position: relative;
+}
+.reply-avatr {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.creator-avatar {
+    left: -77px;
+    position: absolute;
+    top: 0;
+}
+.audio-arrow1 {
+    background-image: url("images/audio-arrow1.png");
+    height: 26px;
+    left: -19px;
+    position: absolute;
+    top: 15px;
+    width: 20px;
+}
+.audio-arrow2 {
+    background-image: url("images/audio-arrow2.png");
+    height: 26px;
+    left: -19px;
+    position: absolute;
+    top: 15px;
+    width: 72px;
+}
+ul.Discussions li img {
+    border: 2px solid #000000;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 1px 1px 0 #FCFCFC;
+    float: left;
+    height: 35px;
+    margin: 6px 0 4px 10px;
+    width: 35px;
+}
+.CommentTabs {
+    box-shadow: none;
+}
+.LikeThis {
+    font-size: 117%;
+    font-weight: bold;
+}
+.DateCreated {
+    font-style: oblique;
+}
+.CommentQuote {
+    font-style: oblique;
+}

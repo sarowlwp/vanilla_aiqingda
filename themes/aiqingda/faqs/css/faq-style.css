@@ -1,0 +1,223 @@
+/*style for FAQS*/
+
+#search-bar {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #CCCCCC;
+    /*border-radius: 4px 4px 4px 4px;*/
+    margin: 0 auto;
+    padding: 5px 25px 15px;
+}
+#search-bar form {
+    margin: 0 auto;
+    position: relative;
+    width: 550px;
+}
+#search-bar h2 {
+    margin-bottom: 0.5em;
+	color:#1f813d !important;
+	font-size:18px;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.75);
+}
+#search-bar input {
+    border: 1px solid #aaaaaa;
+    border-radius: 3px 3px 3px 3px;
+    font-family: "proxima-nova-1","proxima-nova-2", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 0.5em;
+    padding: 7px;
+    width: 520px;
+}
+* + html #search-bar input {
+    width: 520px;
+}
+#search-bar p {
+    color: #555555;
+    font-size: 11px;
+    margin-top: 1em;
+}
+#search-bar .loader {
+    background: url("progress_sm.gif") no-repeat scroll 0 0 transparent;
+    height: 11px;
+    line-height: 500px;
+    overflow: hidden;
+    position: absolute;
+    right: 70px;
+    top: 50px;
+    width: 16px;
+}
+.faq {
+    margin-bottom: 3em;
+
+}
+.faq a {
+color:#ec008c;
+font-weight:bold;
+
+font-family: "proxima-nova-1","proxima-nova-2", Helvetica, Arial, sans-serif;
+height: 24px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+.faq a:hover {
+color:#3399ff;
+}
+.faq li {
+    line-height: 26px;
+    list-style-type: none;
+    padding: 0;
+	width:670px;
+	border-bottom:1px solid #dedede;
+
+}
+.faq .answer {
+    background-color: #f0f0f0;
+    border: 1px solid #aaaaaa;
+    /*border-radius: 3px 3px 3px 3px;*/
+    margin: 10px 0px;
+    padding: 20px;
+    width: 650px;
+}
+.faq .plus_icon {
+    color: #444444;
+    display: inline;
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 10px;
+	line-height:24px;
+	height:24px;
+	vertical-align:middle;
+}
+.clearfix {
+    display: inline-block;
+}
+#no_results {
+    color: #CC0000;
+    display: none;
+}
+.searchFAQS {
+    background-color: #EC008C;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 7px 4px;
+    white-space: nowrap;
+    width: 100px;
+}
+.searchFAQS:hover {
+    background-color: #3399FF;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 7px 4px;
+    white-space: nowrap;
+    width: 100px;
+}
+.question {
+    font-weight: bold;
+    text-shadow: 0 1px 1px #FFFFFF;
+}
+h5 {
+	border-bottom: 1px dotted;
+    color: #777777;
+    font-family: "proxima-nova-1","proxima-nova-2", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 1px;
+	text-transform:uppercase;
+	}
+
+.number {
+font-weight:bold;
+margin-right:10px;
+color:#ec008c;
+}
+.searchreset {
+    background: url("cancel-sprite.png") no-repeat scroll 0 0 transparent;
+    height: 24px;
+    line-height: 24px;
+    margin-left: -44px;
+    top: 46px;
+	position:absolute;
+    padding-left: 44px;
+    vertical-align: middle;
+    width: 24px;
+}
+.searchreset:hover {
+    background: url("cancel-sprite.png") no-repeat scroll 0 -24px transparent;
+    cursor: pointer;
+    height: 24px;
+    margin-bottom: 0;
+    margin-left: -44px;
+    padding-left: 44px;
+    vertical-align: middle;
+    width: 24px;
+}
+p img {
+padding:4px;
+background-color:#fff;
+border:1px solid #aaaaaa;
+}
+p img:hover {
+border:1px solid #ec008c;
+}
+#expand-all {
+color:#ec008c;
+cursor:pointer;
+font-weight:bold;
+}
+#expand-all:hover {
+color:#3399ff;
+}
+#contract-all {
+color:#ec008c;
+cursor:pointer;
+font-weight:bold;
+}
+#contract-all:hover {
+color:#3399ff;
+}
+#Content {width:710px;margin:0 auto;}
+
+
+.map { 
+      width: 700px;
+
+      /* The following are required to allow absolute positioning of the
+       * info window at the bottom right of the map, and for it to be hidden
+       * when it is "off map" 
+       */
+      position: relative; 
+      overflow: hidden;
+    }
+    #placeDetails { 
+      position: absolute;
+      width: 300px;
+      bottom: 0;
+      right: -320px;
+      padding-left: 10px;
+      padding-right: 10px;
+
+      /* Semi-transparent background */
+      background-color: rgba(0,0,0,0.8);
+      color: white;
+      font-size: 80%;
+
+      /* Rounded top left corner */
+      border-top-left-radius: 15px;
+      -moz-border-radius-topleft: 15px;
+      -webkit-border-top-left-radius: 15px;
+    }
+
+    /* Fit the text nicely inside the box */
+    h1 {
+      font-family: sans-serif;
+      margin-bottom: 0;
+    }
+    #placeDetails p {
+      margin-top: 0;
+    }

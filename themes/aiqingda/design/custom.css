@@ -1,0 +1,1226 @@
+body.register #Content {
+width: 700px;
+}
+
+.Comment .Message a{
+    color: #1e79a7;
+}
+
+.Comment .Message a:hover{
+    color: #ff0084;
+}
+
+.BannerCenter{
+margin: auto;
+width: 1200px;
+margin-left: 50px;
+}
+
+.FootHeader{
+padding-bottom: 60px;
+margin: 0px;
+background: url('/themes/aiqingda/design/images/grassbottom.png') repeat-x;
+width: 100%;
+}
+
+.FootBody{
+background: url('/themes/aiqingda/design/images/foot_bottom_bg.jpg') repeat-x;
+width: 100%;
+height: 150px;
+margin: 0px;
+}
+
+.NumberedPager a, .NumberedPager span {
+padding: 0 4px;
+border: 1px solid #CDCDCD;
+margin-left: 3px;
+}
+
+.NumberedPager .Previous{
+padding: 0 15px;
+}
+
+.NumberedPager .Next{
+padding: 0 20px;
+}
+
+.NumberedPager .Ellipsis{
+border: 1px solid #CDCDCD;
+font-weight:bold;
+}
+
+#PagerBefore{
+background: #F2F2F2;
+padding: 6px;
+border-top: #CDCDCD 1px solid;
+margin-bottom: -6px;
+}
+
+.DiscussionsTabs.Tabs .SubTab {
+background: url("/themes/aiqingda/design/images/bankuai.png") no-repeat hsla(0, 0%, 0%, 0);
+font-size: 15px;
+font-weight: bold;
+padding-left: 33px;
+line-height: 18px;
+height: 20px;
+}
+
+.Discussions .CommentInfo{
+float: right;
+font-size: 10px;
+height: 38px;
+line-height: 1.2;
+padding: 5px 5px 0;
+text-align: left;
+}
+
+.DataList .Meta  .LastCommentBy{
+display:inline;
+width: 100px
+}
+
+.LastCommentBy{
+display:block;
+width: 100px;
+}
+
+.MessageList .Item:hover {
+z-index: 0;
+}
+
+.DataList .Meta a.Category {
+padding: 2px 2px;
+box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+
+.Preview .Message blockquote, .MessageList .Message blockquote {
+padding: 4px 16px;
+margin: 4px 0;
+color: #777;
+}
+
+.QuoteFolding{
+	color: #777;
+}
+
+.QuoteFolding a{
+	color: #777;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+a:hover {
+   text-decoration: none;
+   color: black;
+}
+
+a.BigButton {
+text-align: center;
+display: block;
+cursor: pointer;
+margin: 0 0 10px;
+font-size: 15px;
+font-weight: bold;
+padding: 8px 0;
+background: white;
+//background: url("/themes/aiqingda/design/images/boxbackground.png");
+//background: -moz-linear-gradient(top, #ffffff, #cccccc);
+-pie-background: linear-gradient(top, #ffffff, #cccccc);
+background: linear-gradient(top, #ffffff, #cccccc);
+color: #02475A;
+text-shadow: 0 1px 0 #fff;
+border: 1px solid green;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+box-shadow: 0px 0px 2px #999;
+-moz-box-shadow: 0px 0px 2px #999;
+-webkit-box-shadow: 0px 0px 2px #999;
+}
+
+#Foot .list{
+	float: left;
+	width: 200px;
+	display: inline;
+	margin: 0 0 0 0;
+	text-align:left;
+}
+
+#Foot .list dt{
+	padding:0px 10px 10px 0px;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#Foot .list_right{
+	float: right;
+	width: 400px;
+	display: inline;
+	margin: 0 0 0 0;
+	text-align:left;
+}
+
+#Foot .clearfix {
+display: block;
+}
+
+#Foot .siteinfo{
+	margin: 10px;
+}
+
+/*
+span.LevelNormal {
+	background: #6A8789;
+}
+
+span.LevelGold {
+	background: #FF7F00;
+}
+
+span.LevelGreat {
+	background: #FF34B3;
+}
+
+span.LevelGreen {
+	background: #00CD00;
+}
+
+.Level{
+	border: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	color: white;
+	margin-left: 5px;
+	padding-left: 5px !important;
+	padding-right: 5px;
+	border: 0;
+	outline: 0;
+	text-align: center;
+}
+*/
+
+.Banner .SiteSearch .InputBox {
+border: 1px solid #DDD;
+border-radius: 3px;
+font-size: 11px;
+width: 175px;
+padding: 5px 25px 5px 5px;
+}
+
+
+.Banner .SiteSearch .Button {
+background: url('/themes/aiqingda/design/images/search.png');
+height: 20px;
+width: 20px;
+overflow: hidden;
+line-height: 999px;
+color: transparent;
+font-size: 0;
+border: none;
+position: absolute;
+top: 4px;
+right: 4px;
+box-shadow: none;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+padding: 0;
+}
+
+.Banner .SiteSearch {
+top: 33px;
+right: 50px;
+float: right;
+*top:0px;
+_top:0px;
+position: relative;
+}
+
+.QuoteFolded div {
+border-left: solid 2px #555;
+padding: 5px;
+}
+
+.Role{
+}
+
+.ImageNav li{
+  display:inline-block;
+  padding:0px;
+  margin:0px;
+  zoom:1;
+  *display:inline;
+  _display:inline;
+}
+
+.ImageNav img{
+  padding:0px;
+  margin:0px;
+}
+
+.Button:hover {
+color: white;
+border: 1px solid #666;
+background: black;
+}
+
+a.Button, .Button {
+    background: -moz-linear-gradient(center top , #6A8789, #6A8789) repeat scroll 0 0 transparent !important;
+    background: -webkit-linear-gradient(center top , #6A8789, #6A8789) repeat scroll 0 0 transparent !important;
+    background: -o-linear-gradient(center top , #6A8789, #6A8789) repeat scroll 0 0 transparent !important;
+    -pie-background: linear-gradient(top, #6A8789, #6A8789);
+    background: linear-gradient(top, #6A8789, #6A8789);
+    background: #666;
+    border: 1px solid #6A8789;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 3px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    color: white;
+    cursor: pointer;
+    font-size: 11px;
+    margin: 0;
+    padding: 4px;
+    text-shadow: none;
+    white-space: nowrap;
+}
+
+#Foot a:hover {
+color: #fff;
+}
+
+#Foot a {
+color: #fff;
+}
+
+#Foot {
+display: block;
+clear: both;
+height: 100px;
+width:100%;
+text-align: center;
+margin: 0px;
+padding: 0px;
+font-size: 13px;
+font-weight:blod;
+color: #fff;
+line-height: 1;
+}
+
+
+.DataList.Discussions .Meta span, .DataList .Meta strong {
+  margin-right: 2px;
+}
+
+.Announcement .Title{
+    color: #EE1B2E;
+    //text-shadow: 0 1px 1px #FFEC8B;
+}
+
+#Panel input.InputBox, .AddPeople textarea.MultiComplete {
+    margin-bottom: 0;
+    margin-right: 7px;
+    width: 69%;
+}
+
+.category-buttons a.selected {
+background: grey;
+color: white;
+border: 1px solid black;
+text-shadow: 0 1px 1px black;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+
+.category-buttons a:hover {
+background: grey;
+color: white;
+border: 1px solid black;
+text-shadow: 0 1px 1px black;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+
+.category-buttons a {
+padding: 4px 10px;
+line-height: 14px;
+margin-right: 4px;
+display: inline-block;
+background: #FFF;
+border: 1px solid black;
+color: black;
+margin-bottom: 4px;
+}
+
+.QnA-Accepted {
+background: green;
+padding: 1px 10px;
+}
+
+.QnA-Tag-Accepted {
+   background:green;
+}
+
+.QnA-Tag-Answered {
+   background:blue;
+}
+
+
+#ConversationForm form {
+border-radius: 2px;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+background: none repeat scroll 0 0 transparent;
+margin: 0;
+padding: 20px;
+text-align: right;
+}
+
+body{
+    background: url("/themes/aiqingda/design/images/chachabg.png") top center repeat;
+	font-family: tahoma,arial,sans-serif;
+}
+
+.Wrapper{
+	zoom: 1;
+}
+
+body.Post #Content {
+width: 800px;
+}
+
+#Body {
+	margin: 0;
+	width: 1000px;
+	position: relative;
+	margin-left:auto; 
+	margin-right: auto;
+	//overflow: hidden;
+	zoom: 1;
+	
+    height:auto!important;
+    
+	height: 3000px;
+	min-height: 800px;
+	top: 0px;
+}
+#Head {
+	background: #3B5998;
+	padding:0;
+	margin: 20px 20px 0;
+	text-align: left;
+	position: relative;
+}
+div.Popup h1,
+div.Popup h2,
+div.Connect h1,
+div.Connect h2 {
+	//background: none repeat scroll 0 0 #4F4F4F;
+	border-bottom: 1px solid #3b5998;
+	//background:black;
+}
+
+.Banner img{
+}
+
+.Banner {
+	text-align: left;
+	margin-bottom:10px;
+	zoom: 1;
+	padding-top: 9px;
+	background: #00B2EE top center repeat;
+	height: 70px;
+	width: 100%;
+	z-index: 1000;
+	border-bottom: 3px solid green;  -moz-box-shadow: 0 0 6px #444;  -webkit-box-shadow: 0 0 6px#444;  box-shadow: 0 0 6px #444;
+}
+
+.Banner ul li a.faqs {
+
+}
+
+.Banner span{
+	display:inline-block;
+}
+
+.Banner img{
+	margin: 10px 10px 0px 10px;
+}
+
+.Banner ul {
+	padding: 5px;
+	margin: 0;
+}
+
+.Banner ul li {
+	display: inline;
+	padding: 0;
+	margin: 0;
+	
+}
+
+.BannerMenu{
+	margin-top: 28px;
+}
+
+.Banner ul li a {
+	padding: 5px 6px;
+	color: #fff;
+	text-shadow: 0 1px 1px #000000;
+	display: inline-block;
+	font: 15px/1.125 Arial,Helvetica,sans-serif;
+        
+	font-weight: bold;
+}
+
+.Banner ul li a:hover {
+        background:url("/themes/aiqingda/design/images/chachabg.png");
+        padding: 5px 5px;
+        border:1px #cdcdcd solid;
+        text-shadow: 0 2px 2px black;
+        border-radius: 7px;
+	-moz-border-radius: 7px;
+	//background:red;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4) inset;
+	-webkit-border-radius: 7px;
+}
+.Banner ul li a.SignOut {
+
+}
+
+.Banner ul li div {
+   //padding-top: 1px;
+   position: relative;
+   float: right;
+}
+
+.Banner ul li a span {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	padding: 1px 2px 0 1px;
+	background: #f00;
+	border-right: 1px solid #a00;
+	border-bottom: 1px solid #a00;
+	color: #fff;
+	font-size: 9px;
+	position: relative;
+	top: -3px;
+}
+
+.Content {
+
+}
+
+#Content {
+width: 710px;
+//margin: 0px 10px 20px 0px;
+background: #FFFFFF url("/themes/aiqingda/design/images/wucai.png") top center repeat-x;
+border: 1px solid #FBFBFB;
+border-radius: 5px 5px 5px 5px;
+box-shadow: 0 0 6px #888888;
+//color: black;
+padding: 7px 11px;
+overflow: hidden;
+}
+
+#Panel {
+	float: right;
+	width: 250px;
+}
+
+#Panel .Photo{
+    //background-image: url("images/boxbackground.png");
+    //border: 1px solid #FBFBFB;
+    //border-radius: 5px 5px 5px 5px;
+    //box-shadow: 0 0 6px #888888;
+    //color: #000000;
+    margin: 0 0 5px;
+    //padding: 1px;
+    text-align:center;
+}
+
+#TopPosters .Photo{
+    background: transparent;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px #ffffff;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
+}
+
+.Foot{
+background: none repeat scroll 0 0 transparent;
+border-bottom: 0 none;
+}
+.PanelInfo {
+    border-bottom: 0 none;
+    border-top: 0px solid #BEC8CC;
+    box-shadow: 0 0px 0 #FCFCFC inset;
+}
+
+.PanelInfo li {
+padding: 2px 4px;
+text-align: right;
+border-bottom: 0px solid #BEC8CC;
+box-shadow: 0 0px 0 #FCFCFC;
+background: none repeat scroll 0 0 transparent;
+}
+
+.PanelInfo .Active a {
+color: black;
+}
+
+.PanelInfo  a:hover {
+        //background: none repeat scroll 0 0 #FFFFFF;
+	color: black;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.PanelInfo .Active {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 0px solid #BEC8CC;
+    border:1px solid #BEC8CC;
+    box-shadow: 0 1px 0 #FCFCFC;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.Tabs, .Headings {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #BEC8CC;
+    box-shadow: 0 1px 0 #FCFCFC;
+    color: #000000;
+    display: block;
+    margin: 0;
+    padding: 1px;
+    position: relative;
+}
+
+a.Title {
+    color: #000000;
+    max-width: 580px;
+    text-shadow: 0 1px 1px #FFFFFF;
+}
+
+.Mine {
+  background: #F2F2F2;
+}
+
+
+/*Google Search Box*/
+.GoogleSearchBox { 
+	width: 300px;
+	float:left
+}
+/*repair big photo display*/
+
+
+
+/*repair scolling wrong position*/
+body.Profile #Content {
+	margin: 0 0 40px 10px;
+	width: 710px;
+	float: left;
+	//background-image: url("images/boxbackground.png");
+    border: 1px solid #FBFBFB;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 6px #888888;
+	display: inline;
+}
+
+body.Profile .PanelInfo li {
+border-bottom: 0px;
+box-shadow: 0px 0px 0px 0px;
+}
+
+body.Profile .PanelInfo {
+border-bottom: 0px;
+}
+
+/*repair bug in message List*/
+ul.MessageList div.Message {
+	clear: none;
+}
+
+.Copyright {
+color: white;
+font-weight: bold;
+}
+
+.MessageList .Meta .Author a {
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.MessageForm, .Tabs, .Headings {
+display: block;
+border: 0px;;
+padding: 5px 8px;
+margin: 0;
+background: none repeat scroll 0 0 transparent;
+position: relative;
+}
+
+#MessageForm {
+background: transparent;
+}
+
+#MessageForm h2 {
+color: black;
+}
+
+#DiscussionForm form {
+border-radius: 2px;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+background: none repeat scroll 0 0 transparent;
+border: 0px solid #BEC8CC;
+margin: 0;
+padding: 10px;
+}
+
+input.gsc-input {
+border-color: #D9D9D9;
+}
+
+input.gsc-search-button {
+border-color: #666666;
+background-color: #CECECE;
+}
+
+.CategoryBox .CategoryTabs {
+padding:px;
+border:0px;
+background: #f3ecff;
+border-bottom:1px solid green;
+}
+
+.CategoryBox li.Item {
+padding:3px;
+border:0px;
+border-top:1px solid #cdcdcd;
+}
+
+ul.DataList li.Item {
+position: relative;
+*display: inline-block;
+_display: inline-block;
+}
+
+.DataList .Item {
+border-style: none none solid;
+border-width: 1px 0px 0px 0px;
+border-top: 1px solid #BEC8CC;
+margin: 0;
+padding: 10px 0;
+position: relative;
+box-shadow: 0 1px 0 #FCFCFC;
+}
+
+.DataList .Alt {
+background-color: #FAFAFA;
+}
+
+.DataList a.Delete, .DataList a.Delete:hover {
+border-radius: 0;
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+color: #333;
+display: block;
+height: 14px;
+margin: 0;
+padding: 2px 4px;
+width: auto;
+font-family: arial;
+font-size: 11px;
+font-weight: bold;
+line-height: 1;
+}
+
+.DataList a.Delete:hover {
+text-decoration: none;
+border: none;
+background: #333;
+color: white;
+}
+
+.Activities a.Title, .Activities .Title, .Activities .Title a {
+font-size: 13px;
+padding:4px;
+}
+
+.TabLink, .TabLink:link, .TabLink:hover, .TabLink:active, .TabLink:visited {
+    //background: none repeat scroll 0 0 transparent;
+    border: 1px solid #BEC8CC;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 1px 0 #FCFCFC;
+    color: #000000;
+    display: inline;
+    font-weight: bold;
+    line-height: 3;
+    margin: 0;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #FFFFFF;
+    white-space: nowrap;
+}
+
+.TabLink:link{
+    background:transparent;
+}
+
+.TabLink:hover{
+    background:#f3ecff;
+}
+
+.Tabs .Active a{
+margin: 0px;
+background: #f3ecff;
+}
+
+.Tabs li a span {
+line-height: 1;
+font-size: 80%;
+padding: 0 3px;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+font-weight: normal;
+background: #000000;
+color: #ffffff;
+margin: 0 0 0 4px;
+}
+
+.Box {
+    background: white;
+    border: 1px solid #FBFBFB;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 6px #888888;
+    color: #000000;
+    margin: 0 0 10px;
+    padding: 6px 10px;
+}
+
+.Box h4 {
+    color: #000000;
+    font-size: 110%;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 1px;
+    text-shadow: 0 1px 1px #FFFFFF;
+}
+
+.Tags li a {
+color: black;
+font-weight: normal;
+}
+
+.Tags li{
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+box-shadow: 0 1px 0 #FCFCFC;
+color: black;
+display: inline-block;
+zoom:1;
+*display:inline;
+}
+
+.Tags li a{
+background: none repeat scroll 0 0 #fff;
+border: 1px solid #BEC8CC;
+border-radius: 5px;
+box-shadow: 0 1px 0 #FCFCFC;
+color: black;
+display: inline-block;
+zoom:1;
+*display:inline;
+padding: 2px 4px;
+text-align: left;
+margin:5px 0px 0px 3px;
+}
+
+.Tags li a:hover{
+background: none repeat scroll 0 0 #000000;
+border: 1px solid #ffffff;
+border-radius: 5px;
+box-shadow: 0 1px 0 #FCFCFC;
+color: white;
+display: inline-block;
+zoom:1;
+*display:inline;
+padding: 2px 4px;
+text-align: left;
+margin:5px 0px 0px 3px;
+}
+
+
+.tpProfilePhotoSmall li {
+padding: 2px 4px;
+text-align: left;
+background: none repeat scroll 0 0 transparent;
+}
+
+.tpProfilePhotoSmall img{
+	padding: 2px;
+    display: inline-block;
+    height: 24px;
+    margin: 3px;
+    vertical-align: middle;
+    width: 24px;
+}
+
+.PhotoGridSmall img {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background: none repeat scroll 0 0 white;
+	padding: 2px;
+	border: 1px solid #DEDEDE;
+    height: 32px;
+    margin: 1px;
+    vertical-align: text-bottom;
+    width: 32px;
+}
+
+.Count {
+	line-height: 1;
+	font-size: 80%;
+	padding: 0 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	font-weight: normal;
+	background: black;
+	color: white;
+	margin: 0 0 0 4px;
+}
+
+#Foot div {
+	width: 1200px;
+	padding: 6px 0;
+	margin: 0px auto 0;
+	text-align: left;
+	text-align: center;
+}
+
+/* icon */
+
+.Group a{
+padding: 0px 0px 0px 18px;
+}
+
+.Male{
+padding: 0px 0px 0px 0px;
+display: inline-block;
+background: url(/themes/aiqingda/design/images/male.png) no-repeat 0 50%;
+vertical-align: middle;
+padding: 0px 0px 0px 0px;
+margin-left:10px;
+height: 16px;
+width:16px;
+line-height: 11px;
+}
+
+.Female{
+padding: 0px 0px 0px 0px;
+display: inline-block;
+background: url(/themes/aiqingda/design/images/female.png) no-repeat 0 50%;
+vertical-align: middle;
+padding: 0px 0px 0px 0px;
+margin-left:10px;
+height: 16px;
+width:16px;
+line-height: 11px;
+}
+
+.FlagContent{ 
+display: inline-block;
+background: url(/themes/aiqingda/design/images/16x16/siren.png) no-repeat 0 50%;
+vertical-align: middle;
+padding: 0px 0px 0px 18px;
+ height: 16px;
+ line-height: 11px;
+}
+
+.PasswordLink a{
+padding: 2px 4px;
+display: inline-block;
+background: url(/themes/aiqingda/design/images/16x16/key.png) no-repeat 0 50%;
+vertical-align: middle;
+padding: 0px 0px 0px 18px;
+}
+
+.PictureLink a{
+padding: 2px 4px;
+display: inline-block;
+background: url(/themes/aiqingda/design/images/16x16/user_silhouette.png) no-repeat 0 50%;
+vertical-align: middle;
+padding: 0px 0px 0px 18px;
+}
+
+.CommentQuote a{
+padding: 2px 4px;
+display: inline-block;
+background: url(/themes/aiqingda/design/images/16x16/comment_add.png) no-repeat 0 50%;
+vertical-align: middle;
+padding: 0px 0px 0px 18px;
+height: 16px;
+line-height: 11px;
+}
+
+.AttachFileLink a{
+padding: 2px 4px;
+display: inline-block;
+background: url(/themes/aiqingda/design/images/16x16/image_add.png) no-repeat 0 50%;
+vertical-align: middle;
+padding: 0px 0px 0px 18px;
+}
+
+.PreferencesLink a{
+padding: 2px 4px;
+display: inline-block;
+background: url(/themes/aiqingda/design/images/16x16/bell.png) no-repeat 0 50%;
+vertical-align: middle;
+padding: 0px 0px 0px 18px;
+}
+
+
+.MessageLink a{
+padding: 2px 4px;
+display: inline-block;
+background: url(/themes/aiqingda/design/images/16x16/email.png) no-repeat 0 50%;
+vertical-align: middle;
+padding: 0px 0px 0px 18px;
+}
+
+.LikeThis.Like a{
+padding: 2px 4px;
+display: inline-block;
+background: url(/themes/aiqingda/design/images/icons/like.png) no-repeat 0 50%;
+vertical-align: middle;
+padding: 0px 0px 0px 18px;
+line-height: 11px;
+height: 15px;
+}
+/*CSS for vote plugin*/
+
+div.HeadingTabs div.SubTab {
+    font-size: 16px;
+    background: #FFFFFF;
+}
+
+.MessageList .Meta {
+min-height: 55px;
+}
+
+ul.MessageList div.Meta span.Votes {
+text-align: center;
+display: block;
+position: absolute;
+left: -70px;
+line-height: normal;
+padding: 0;
+width: 44px;
+}
+
+.StatBox a:hover {
+	color: #ffffff;
+	text-shadow: 0 0px 5px #000000;
+	background: none repeat scroll 0 0 black;
+}
+
+.StatBox, .StatBox a {
+    color: #111111;
+    display: block;
+    text-shadow: 0 1px 1px #FFFFFF;
+}
+
+.StatBox span {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1;
+    min-width: 38px;
+    padding-bottom: 2px;
+}
+
+.StatBox {
+    background: none repeat scroll 0 0 transparent;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    height: 38px;
+    line-height: 1.2;
+    padding: 5px 5px 0;
+    text-align: center;
+}
+
+.ViewsBox { background: none repeat scroll 0 0 transparent; 
+ margin-right: 5px;
+}
+.FollowsBox { background: none repeat scroll 0 0 transparent; }
+.AnswersBox {
+	background: none repeat scroll 0 0 transparent;
+	margin-right: 4px;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+	-webkit-border-top-right-radius: 2px;
+	-webkit-border-bottom-right-radius: 2px;
+	-moz-border-radius-topright: 2px;
+	-moz-border-radius-bottomright: 2px;
+}
+.HasAnswersBox { background: none repeat scroll 0 0 transparent; }
+.HasAnswersBox a { background: none repeat scroll 0 0 transparent; }
+.VotesBox {
+        background: none repeat scroll 0 0 transparent;
+	margin-left: 4px;
+        border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+	-webkit-border-top-left-radius: 2px;
+	-webkit-border-bottom-left-radius: 2px;
+	-moz-border-radius-topleft: 2px;
+	-moz-border-radius-bottomleft: 2px;
+}
+span.Votes a.VoteUp {
+    border-radius: 3px 3px 0 0;
+    line-height: 100%;
+    padding: 5px 4px 3px;
+}
+span.Votes a {
+    background: none repeat scroll 0 0 transparent;
+    color: #99E2FE;
+}
+span.Votes a, span.Votes span {
+    display: block;
+}
+
+span.Votes span {
+    background: none repeat scroll 0 0 #0065CE;
+    color: #FFFFFF!important;
+    min-width: 36px;
+    padding: 0 4px !important;
+}
+
+span.Votes a:hover {
+    background: none repeat scroll 0 0 transparent;
+    border:1 #FFFFFF;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFFFFF;
+}
+
+/*CSS for Comment*/
+
+ul.MessageList li.Item {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin: 0px;
+    padding: 5px;
+}
+
+
+.DataList .Meta .Announcement {
+    background: #BD2F2F;
+    border-radius: 2px 2px 2px 2px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.UserSignature {
+color: #109959;
+border-top: 1px dashed #595959;
+}
+
+.PanelDiscussions li strong a{
+    display: block;
+    height: 20px;
+    line-height: 1.5;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 200px;
+	color:#000000;
+}
+
+.PanelInfo .Meta span a{
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50px;
+}
+
+.Bookmark ul li div span{
+    color: #109959;
+	font-size:15px;
+}
+
+.PanelInfo .Meta span{
+padding: 3px;
+}
+
+.PanelInfo .Meta strong {
+ background: none repeat scroll 0 0 #FFFF00;
+border-radius: 2px 2px 2px 2px;
+color: #000000;
+font-size: 9px;
+font-weight: bold;
+line-height: 1;
+padding: 3px;
+}
+
+.DiscussionExcerpt2{
+text-indent:2em;
+padding:5px;
+}
+
+.PanelInfo .Meta span a {
+margin-left: 0px;
+float: left;
+}
+
+.PanelInfo .Meta {
+border-top: 1px dashed #595959;
+}
+
+ul.DataList div.Meta strong {
+    box-shadow: 0 0 2px #777777;
+    left: 558px;
+    position: absolute;
+    top: 24px;
+    white-space: nowrap;
+}
+
+/*Kamra bank*/
+.Amount{
+	color: #FF7F00;
+}
+
+.Item .Author img {
+background: none repeat scroll 0 0 white;
+padding: 4px;
+border: 1px solid #DEDEDE;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+margin-left: 5px;
+}
+
+/**/
+.ImageResized {
+display:none;
+}

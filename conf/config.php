@@ -30,13 +30,23 @@ $Configuration['EnabledApplications']['Vanilla'] = 'vanilla';
 $Configuration['EnabledPlugins']['GettingStarted'] = 'GettingStarted';
 $Configuration['EnabledPlugins']['HtmLawed'] = 'HtmLawed';
 $Configuration['EnabledPlugins']['Facebook'] = TRUE;
-$Configuration['EnabledPlugins']['YoukuTudou'] = TRUE;
-$Configuration['EnabledPlugins']['TecentConnect'] = TRUE;
 $Configuration['EnabledPlugins']['ChinesePreference'] = TRUE;
 $Configuration['EnabledPlugins']['Emotify'] = TRUE;
-$Configuration['EnabledPlugins']['BaiduShare'] = TRUE;
 $Configuration['EnabledPlugins']['cleditor'] = TRUE;
 $Configuration['EnabledPlugins']['Pockets'] = TRUE;
+$Configuration['EnabledPlugins']['Quotes'] = TRUE;
+$Configuration['EnabledPlugins']['ProfileExtender'] = TRUE;
+$Configuration['EnabledPlugins']['StopForumSpam'] = TRUE;
+$Configuration['EnabledPlugins']['TecentConnect'] = TRUE;
+$Configuration['EnabledPlugins']['AllViewed'] = TRUE;
+$Configuration['EnabledPlugins']['CategoryButtons'] = TRUE;
+$Configuration['EnabledPlugins']['CustomPages'] = TRUE;
+$Configuration['EnabledPlugins']['Signatures'] = TRUE;
+$Configuration['EnabledPlugins']['VanillaStats'] = TRUE;
+$Configuration['EnabledPlugins']['JumpToTop'] = TRUE;
+$Configuration['EnabledPlugins']['Ignore'] = TRUE;
+$Configuration['EnabledPlugins']['KarmaBank'] = TRUE;
+$Configuration['EnabledPlugins']['PictureGallery'] = TRUE;
 
 // Garden
 $Configuration['Garden']['ContentType'] = 'text/html';
@@ -81,7 +91,7 @@ $Configuration['Garden']['Registration']['ConfirmEmail'] = '1';
 $Configuration['Garden']['Registration']['ConfirmEmailRole'] = '3';
 $Configuration['Garden']['Registration']['MinPasswordLength'] = 6;
 $Configuration['Garden']['Registration']['CaptchaPrivateKey'] = '6LeyNtASAAAAAOlyM7VSXrtMcV18MmdeIZSl61v3';
-$Configuration['Garden']['Registration']['CaptchaPublicKey'] = '6LeyNtASAAAAAOR1dsvSN_t085s0ZD';
+$Configuration['Garden']['Registration']['CaptchaPublicKey'] = '6LeyNtASAAAAAOR1dsvSN_t085s0ZD-SVJAM6JtR';
 $Configuration['Garden']['TermsOfService'] = '/home/termsofservice';
 $Configuration['Garden']['Email']['UseSmtp'] = FALSE;
 $Configuration['Garden']['Email']['SmtpHost'] = '';
@@ -139,6 +149,7 @@ $Configuration['Garden']['HomepageTitle'] = '爱青大BBS';
 $Configuration['Garden']['Description'] = '';
 $Configuration['Garden']['User']['ValidationRegex'] = '\\d\\w_\\x{0800}-\\x{9fa5}';
 $Configuration['Garden']['User']['ValidationLength'] = '{2,20}';
+$Configuration['Garden']['SystemUserID'] = '6765';
 
 // Modules
 $Configuration['Modules']['Dashboard']['Panel'] = array('MeModule', 'UserBoxModule', 'ActivityFilterModule', 'UserPhotoModule', 'ProfileFilterModule', 'SideMenuModule', 'UserInfoModule', 'GuestModule', 'Ads');
@@ -154,7 +165,16 @@ $Configuration['Plugins']['GettingStarted']['Categories'] = '1';
 $Configuration['Plugins']['GettingStarted']['Plugins'] = '1';
 $Configuration['Plugins']['GettingStarted']['Profile'] = '1';
 $Configuration['Plugins']['GettingStarted']['Registration'] = '1';
-$Configuration['Plugins']['Tecent']['ChooseName'] = TRUE;
+$Configuration['Plugins']['Tecent']['ChooseName'] = FALSE;
+$Configuration['Plugins']['ProfileExtender']['ProfileFields'] = 'Location,Facebook,Twitter,Website';
+$Configuration['Plugins']['ProfileExtender']['RegistrationFields'] = 'Location';
+$Configuration['Plugins']['ProfileExtender']['TextMaxLength'] = 140;
+$Configuration['Plugins']['StopForumSpam']['UserID'] = '4';
+$Configuration['Plugins']['TecentConnect']['ConsumerKey'] = '100266222';
+$Configuration['Plugins']['TecentConnect']['SiteUrl'] = 'www.aiqingda.com';
+$Configuration['Plugins']['TecentConnect']['Secret'] = '36b69ba130510b8165b0fd29b3dd3060';
+$Configuration['Plugins']['Signatures']['Enabled'] = TRUE;
+$Configuration['Plugins']['KarmaBank']['Version'] = '0.9.6.2b';
 
 // Preferences
 $Configuration['Preferences']['Email']['ConversationMessage'] = '1';
@@ -176,8 +196,9 @@ $Configuration['Routes']['DefaultForumRoot'] = 'discussions';
 $Configuration['Routes']['Default404'] = array('dashboard/home/filenotfound', 'NotFound');
 $Configuration['Routes']['DefaultPermission'] = array('dashboard/home/permission', 'NotAuthorized');
 $Configuration['Routes']['UpdateMode'] = 'dashboard/home/updatemode';
+$Configuration['Routes']['Z2FsbGVyeQ=='] = array('plugin/gallery', 'Internal');
 
 // Vanilla
 $Configuration['Vanilla']['Version'] = '2.1';
 
-// Last edited by sarowlwp (111.161.79.17)2014-04-30 16:22:41
+// Last edited by sarowlwp (111.161.79.17)2014-05-01 12:56:39

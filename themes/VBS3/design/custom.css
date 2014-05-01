@@ -1,39 +1,4 @@
-.Announcement .Title{
-    color: #EE1B2E;
-    //text-shadow: 0 1px 1px #FFEC8B;
-}
-#Foot a {
-    color: #428bca;
-}
-#Foot {
-    color: #000000;
-    margin: 20px 10%;
-}
-#Foot .list {
-    float: left;
-    width: 200px;
-    display: inline;
-    margin: 0 0 0 0;
-    text-align: left;
-}
-#Foot .list dt {
-    padding: 0px 10px 10px 0px;
-    font-size: 14px;
-    font-weight: bold;
-}
-#Foot .list_right {
-    float: right;
-    width: 400px;
-    display: inline;
-    margin: 0 0 0 0;
-    text-align: left;
-}
-#Foot .clearfix {
-    display: block;
-}
-#Foot .siteinfo {
-    margin: 10px;
-}
+
 .NavBar {
     background-color: #222222;
     border-color: #080808;
@@ -1140,4 +1105,45 @@ body.EditMode #Panel .Box ul li a {
 .NavBar .MeWrap {
     right: 40px !important
 }
+
+.Announcement .Title{
+    color: #EE1B2E;
+    //text-shadow: 0 1px 1px #FFEC8B;
+}
+
+.DataList .Title{
+	font-size: 15px;
+}
+
+#Foot a {
+    color: #428bca;
+}
+#Foot {
+    color: #000000;
+    margin: 20px 10%;
+}
+#Foot .list {
+    float: left;
+    width: 200px;
+    display: inline;
+    margin: 0 0 0 0;
+    text-align: left;
+}
+#Foot .list dt {
+    padding: 0px 10px 10px 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#Foot .list_right {
+    float: right;
+    width: 400px;
+    display: inline;
+    margin: 0 0 0 0;
+    text-align: left;
+}
+#Foot .clearfix {
+    display: block;
+}
+#Foot .siteinfo {
+    margin: 10px;
 }

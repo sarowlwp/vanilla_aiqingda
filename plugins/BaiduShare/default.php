@@ -1,10 +1,9 @@
-<?php
-if (!defined('APPLICATION')) exit();
+<?php if(!defined('APPLICATION')) exit();
 
 //
 // Here's the info about my meager plugin
 //
-$PluginInfo['BaiduShare'] = array('Name' => 'BaiduShare', 'Description' => 'Inserts baidushare code on your site!', 'Version' => '1.0', 'Author' => 'sarowlwp', 'AuthorEmail' => 'sarowlwp@live.cn', 'AuthorUrl' => '',);
+$PluginInfo['BaiduShare'] = array('Name' => 'BaiduShare', 'Description' => 'Inserts baidushare code on your site!', 'Version' => '1.0', 'Author' => 'sarowlwp', 'AuthorEmail' => 'sarowlwp@live.cn', 'AuthorUrl' => '');
 
 //
 // Did I mention this was a plugin?  That would explain our desire to
@@ -33,7 +32,6 @@ class BaiduSharePlugin extends Gdn_Plugin
   <script type="text/javascript">
     document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
   </script>';
-
     //
     // We want to get our hot selves into the page before it renders and
     // what-not so that we can get our groove on and start tracking our
@@ -45,9 +43,6 @@ class BaiduSharePlugin extends Gdn_Plugin
       echo '喜欢就分享吧，让更多的人看到，感谢支持 ~ <br>' . self::$ButtonCode . '<br><br>';
       echo self::$JSCode;
     }
-  }
-
-  public function DiscussionController_AfterCommentBody_Handler(&$Sender) {
   }
 
 }

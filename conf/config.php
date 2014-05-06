@@ -27,9 +27,7 @@ $Configuration['EnabledApplications']['Conversations'] = 'conversations';
 $Configuration['EnabledApplications']['Vanilla'] = 'vanilla';
 
 // EnabledPlugins
-$Configuration['EnabledPlugins']['GettingStarted'] = 'GettingStarted';
 $Configuration['EnabledPlugins']['HtmLawed'] = 'HtmLawed';
-$Configuration['EnabledPlugins']['Facebook'] = TRUE;
 $Configuration['EnabledPlugins']['ChinesePreference'] = TRUE;
 $Configuration['EnabledPlugins']['Emotify'] = TRUE;
 $Configuration['EnabledPlugins']['cleditor'] = TRUE;
@@ -46,6 +44,11 @@ $Configuration['EnabledPlugins']['VanillaStats'] = TRUE;
 $Configuration['EnabledPlugins']['JumpToTop'] = TRUE;
 $Configuration['EnabledPlugins']['Ignore'] = TRUE;
 $Configuration['EnabledPlugins']['KarmaBank'] = TRUE;
+$Configuration['EnabledPlugins']['Gravatar'] = TRUE;
+$Configuration['EnabledPlugins']['IndexPhotos'] = TRUE;
+$Configuration['EnabledPlugins']['FileUpload'] = TRUE;
+$Configuration['EnabledPlugins']['ImageUpload'] = TRUE;
+$Configuration['EnabledPlugins']['BaiduShare'] = TRUE;
 
 // Garden
 $Configuration['Garden']['ContentType'] = 'text/html';
@@ -149,6 +152,7 @@ $Configuration['Garden']['Description'] = '';
 $Configuration['Garden']['User']['ValidationRegex'] = '\\d\\w_\\x{0800}-\\x{9fa5}';
 $Configuration['Garden']['User']['ValidationLength'] = '{2,20}';
 $Configuration['Garden']['SystemUserID'] = '6765';
+$Configuration['Garden']['FavIcon'] = 'favicon_448bc5dcfba5973b.ico';
 
 // Modules
 $Configuration['Modules']['Dashboard']['Panel'] = array('MeModule', 'UserBoxModule', 'ActivityFilterModule', 'UserPhotoModule', 'ProfileFilterModule', 'SideMenuModule', 'UserInfoModule', 'GuestModule', 'Ads');
@@ -159,11 +163,15 @@ $Configuration['Modules']['Conversations']['Panel'] = array('MeModule', 'UserBox
 $Configuration['Modules']['Conversations']['Content'] = array('MessageModule', 'MeModule', 'UserBoxModule', 'NewConversationModule', 'Notices', 'Content', 'Ads');
 
 // Plugins
+$Configuration['Plugins']['UploadImage']['Multi'] = TRUE;
+$Configuration['Plugins']['UploadImage']['MaxHeight'] = '';
+$Configuration['Plugins']['UploadImage']['MaxWidth'] = 650;
 $Configuration['Plugins']['GettingStarted']['Dashboard'] = '1';
 $Configuration['Plugins']['GettingStarted']['Categories'] = '1';
 $Configuration['Plugins']['GettingStarted']['Plugins'] = '1';
 $Configuration['Plugins']['GettingStarted']['Profile'] = '1';
 $Configuration['Plugins']['GettingStarted']['Registration'] = '1';
+$Configuration['Plugins']['GettingStarted']['Discussion'] = '1';
 $Configuration['Plugins']['Tecent']['ChooseName'] = FALSE;
 $Configuration['Plugins']['ProfileExtender']['ProfileFields'] = 'Location,Facebook,Twitter,Website';
 $Configuration['Plugins']['ProfileExtender']['RegistrationFields'] = 'Location';
@@ -174,6 +182,10 @@ $Configuration['Plugins']['TecentConnect']['SiteUrl'] = 'www.aiqingda.com';
 $Configuration['Plugins']['TecentConnect']['Secret'] = '36b69ba130510b8165b0fd29b3dd3060';
 $Configuration['Plugins']['Signatures']['Enabled'] = TRUE;
 $Configuration['Plugins']['KarmaBank']['Version'] = '0.9.6.2b';
+$Configuration['Plugins']['KarmaBank']['Enabled'] = FALSE;
+$Configuration['Plugins']['AutoExpireDiscussions']['Version'] = '0.1b';
+$Configuration['Plugins']['DiscussionMark']['Enabled'] = FALSE;
+$Configuration['Plugins']['FileUpload']['Enabled'] = FALSE;
 
 // Preferences
 $Configuration['Preferences']['Email']['ConversationMessage'] = '1';
@@ -190,7 +202,7 @@ $Configuration['Preferences']['Popup']['DiscussionComment'] = '1';
 $Configuration['Preferences']['Popup']['Mention'] = '1';
 
 // Routes
-$Configuration['Routes']['DefaultController'] = 'discussions';
+$Configuration['Routes']['DefaultController'] = array('discussions', 'Internal');
 $Configuration['Routes']['DefaultForumRoot'] = 'discussions';
 $Configuration['Routes']['Default404'] = array('dashboard/home/filenotfound', 'NotFound');
 $Configuration['Routes']['DefaultPermission'] = array('dashboard/home/permission', 'NotAuthorized');
@@ -199,5 +211,14 @@ $Configuration['Routes']['Z2FsbGVyeQ=='] = array('plugin/gallery', 'Internal');
 
 // Vanilla
 $Configuration['Vanilla']['Version'] = '2.1';
+$Configuration['Vanilla']['Discussions']['Layout'] = 'modern';
+$Configuration['Vanilla']['Categories']['Layout'] = 'mixed';
+$Configuration['Vanilla']['Discussion']['SpamCount'] = '1';
+$Configuration['Vanilla']['Discussion']['SpamTime'] = '240';
+$Configuration['Vanilla']['Discussion']['SpamLock'] = '600';
+$Configuration['Vanilla']['Comment']['SpamCount'] = '4';
+$Configuration['Vanilla']['Comment']['SpamTime'] = '60';
+$Configuration['Vanilla']['Comment']['SpamLock'] = '600';
+$Configuration['Vanilla']['Comment']['MaxLength'] = '8000';
 
-// Last edited by sarowlwp (111.161.79.17)2014-05-01 13:03:11
+// Last edited by sarowlwp (124.202.190.82)2014-05-06 14:11:02

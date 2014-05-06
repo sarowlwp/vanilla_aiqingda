@@ -3,8 +3,16 @@
 //
 // Here's the info about my meager plugin
 //
-$PluginInfo['BaiduShare'] = array('Name' => 'BaiduShare', 'Description' => 'Inserts baidushare code on your site!', 'Version' => '1.0', 'Author' => 'sarowlwp', 'AuthorEmail' => 'sarowlwp@live.cn', 'AuthorUrl' => '');
-
+$PluginInfo['BaiduShare'] = array(
+    'Name' => 'BaiduShare',
+    'Description' => 'BaiduShare.',
+    'Version' => '1.1',
+    'RequiredApplications' => array('Vanilla' => '2.0.10'),
+    'Author' => 'sarowlwp',
+    'AuthorEmail' => '',
+    'AuthorUrl' => '',
+    'License' => 'GPLv3'
+);
 //
 // Did I mention this was a plugin?  That would explain our desire to
 // extend Gdn_Plugin. How else would we be an uber-plugin of hawtness?
